@@ -1,0 +1,34 @@
+{
+    "name": "web",
+    "description": "",
+    "json_class": "Chef::Role",
+
+    "default_attributes": {
+        "apache": {
+            "apache_site_enabled": false
+        },
+        "mysql": {
+            "server_root_password":   "password",
+            "server_debian_password": "password",
+            "server_repl_password":   "password"
+        },
+        "monkeyphp": {
+            "docroot":     "/mnt/project/public",
+            "server_name": "monkeyphp.com.local",
+            "server_port": "8080",
+            "db_password": "monkeyphp_user"
+        },
+        "varnish": {
+            "version": 3.0
+        },
+        "elasticsearch": {
+            "cluster_name":       "elastic_monkey",
+            "bootstrap.mlockall": false
+        }
+    },
+
+    "run_list": [
+        "recipe[apt]",
+        "recipe[monkeyphp]"
+    ]
+}

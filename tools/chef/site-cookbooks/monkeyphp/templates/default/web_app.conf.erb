@@ -1,0 +1,12 @@
+<VirtualHost *:<%= @params[:server_port] || node['apache']['listen_ports'].first %>>
+
+    ServerName <%= @params[:server_name] %>
+    DocumentRoot <%= @params[:docroot] %>
+
+    <Directory <%= @params[:docroot] %>>
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+
+</VirtualHost>

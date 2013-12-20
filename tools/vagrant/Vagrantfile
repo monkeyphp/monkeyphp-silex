@@ -1,6 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 vmip = "192.168.45.45"
+servername = "monkeyphp.com.local"
 
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
@@ -42,6 +43,38 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # config.vm.synced_folder "../data", "/vagrant_data"
 
   config.vm.synced_folder "../../", "/mnt/project"
+
+  config.vm.provision :chef_solo do |chef|
+
+    # The following is a temporary fix for:
+    # https://github.com/mitchellh/vagrant/issues/2281#issuecomment-25884707
+    #chef.provisioning_path = "/tmp/vagrant-chef-solo"
+    #chef.file_cache_path = chef.provisioning_path
+
+    chef.log_level = :debug
+
+    chef.cookbooks_path = ["../chef/cookbooks", "../chef/site-cookbooks"]
+    chef.roles_path = ["../chef/site-roles"]
+
+    chef.add_role("web")
+
+    chef.json = {
+        "web" => {
+            "servername" => servername,
+            "docroot" => "/mnt/project/public"
+        }
+    }
+
+    config.vm.provider :virtualbox do |vb|
+        vb.gui = false
+        vb.customize [
+            "modifyvm", :id,
+            "--memory", "1024",
+            "--name", "monkeyphp"
+        ]
+    end
+  end
+
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.

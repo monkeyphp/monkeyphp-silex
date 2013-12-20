@@ -17,8 +17,3 @@ cookbook "rabbitmq"
 cookbook "varnish"
 cookbook "xfs"
 cookbook "xml"
-
-#cookbook "monkeyphp",
-#    :path => "tools/chef/site-cookbooks/monkeyphp-cookbook"
-
-

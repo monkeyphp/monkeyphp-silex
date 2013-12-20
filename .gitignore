@@ -7,3 +7,4 @@ bin/
 tools/vagrant/.vagrant/
 cookbooks/
 tmp/
+.DS_Store
