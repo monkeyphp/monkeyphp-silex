@@ -1,0 +1,32 @@
+{
+    "name": "monkeyphp/monkeyphp",
+    "description": "Monkeyphp in Silex",
+    "authors": [
+        {
+            "name": "David White",
+            "email": "david@monkeyphp.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.1",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "swiftmailer/swiftmailer": ">=4.1.2,<4.2-dev",
+        "monolog/monolog": ">=1.0.0",
+        "doctrine/dbal": "2.2.*",
+        "symfony/twig-bridge": "~2.3",
+        "symfony/security": "~2.3",
+        "symfony/form": "~2.3",
+        "symfony/validator": "~2.3",
+        "symfony/config": "~2.3",
+        "symfony/yaml": "~2.3",
+        "symfony/translation": "~2.3",
+        "symfony/locale": "~2.3",
+        "videlalvaro/php-amqplib": "v2.2.3",
+        "elasticsearch/elasticsearch": "~0.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monkeyphp": "src"
+        }
+    }
+}
