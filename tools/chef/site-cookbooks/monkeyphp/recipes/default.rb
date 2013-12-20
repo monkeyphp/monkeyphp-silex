@@ -67,3 +67,7 @@ web_app "application" do
     server_name node['monkeyphp']['server_name']
     docroot node['monkeyphp']['docroot']
 end
+
+tt = resources('template[/etc/varnish/default.vcl]')
+tt.source 'default.vcl.erb'
+tt.cookbook 'monkeyphp'

@@ -47,6 +47,12 @@ $app['admin.controller'] = $app->share(function() use ($app) {
 /* register the '/' route */
 $app->get('/', 'index.controller:indexAction');
 
+/* register the 'footer' route */
+$app->get('footer', 'index.controller:footerAction');
+
+/* register the 'header' route */
+$app->get('header', 'index.controller:headerAction');
+
 /* register the '/admin' route */
 $app->get('/admin', 'admin.controller:indexAction');
 

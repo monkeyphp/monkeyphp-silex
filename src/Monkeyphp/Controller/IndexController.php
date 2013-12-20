@@ -66,13 +66,41 @@ class IndexController
     /**
      * IndexAction
      * 
-     * @param \Symfony\Component\HttpFoundation\Request $request
+     * @param Request $request
      * 
-     * @return \Symfony\Component\HttpFoundation\Response
+     * @return Response
      */
     public function indexAction(Request $request)
     {
         $html = $this->getTwigEnvironment()->render('index/index.twig', array());
+        $response = new Response($html, 200, array());
+        return $response;
+    }
+    
+    /**
+     * HeaderAction
+     * 
+     * @param Request $request
+     * 
+     * @return Response
+     */
+    public function headerAction(Request $request)
+    {
+        $html = $this->getTwigEnvironment()->render('_header.twig', array());
+        $response = new Response($html, 200, array());
+        return $response;
+    }
+    
+    /**
+     * FooterAction
+     * 
+     * @param Request $request
+     * 
+     * @return Response
+     */
+    public function footerAction(Request $request)
+    {
+        $html = $this->getTwigEnvironment()->render('_footer.twig', array());
         $response = new Response($html, 200, array());
         return $response;
     }
