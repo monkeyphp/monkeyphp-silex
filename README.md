@@ -1,6 +1,11 @@
 Monkeyphp
 =========
 
+Install php dependencies
+    
+    php composer.phar install
+
+
     gem install --binstubs
 
     bundle install --binstubs
