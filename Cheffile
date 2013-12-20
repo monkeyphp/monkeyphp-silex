@@ -1,0 +1,24 @@
+site "http://community.opscode.com/api/v1"
+
+cookbook "apache2"
+cookbook "apt"
+cookbook "ark"
+cookbook "aws"
+cookbook "build-essential"
+cookbook "database"
+cookbook "elasticsearch"
+cookbook "erlang"
+cookbook "java"
+cookbook "mysql"
+cookbook "openssl"
+cookbook "php"
+cookbook "postgres"
+cookbook "rabbitmq"
+cookbook "varnish"
+cookbook "xfs"
+cookbook "xml"
+
+#cookbook "monkeyphp",
+#    :path => "tools/chef/site-cookbooks/monkeyphp-cookbook"
+
+
