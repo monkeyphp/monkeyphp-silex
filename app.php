@@ -1,9 +1,23 @@
 <?php
-/* require the composer autoloader */
+/**
+ * Monkeyphp.com
+ *
+ * Personal website of David White <david@monkeyphp.com>
+ *
+ *   /~\
+ *  C oo
+ *  _( ^)
+ * /    ~\
+ *
+ * @category Monkeyphp
+ * @package  Application
+ * @author   David White [monkeyphp] <david@monkeyphp.com>
+ */
+
+// require the composer autoloader
 require_once 'vendor/autoload.php';
 
-/* use statements */
-
+// use statements
 use Monkeyphp\Controller\AdminController;
 use Monkeyphp\Controller\IndexController;
 use Monkeyphp\Controller\LoginController;
@@ -33,15 +47,15 @@ $app->register(new TwigServiceProvider(), array(
     )
 ));
 
-/* register the ElasticsearchServiceProvider */
+// register the ElasticsearchServiceProvider
 $app->register(new ElasticSearchServiceProvider(), array());
 
-/* register the FormServiceProvider */
+// register the FormServiceProvider
 $app->register(new FormServiceProvider(), array(
     'form.secret' => '0123456789ABCDEEFGHIJKLMNOPQRSTUVWXYZ'
 ));
 
-/* register the SecurityServiceProvider */
+// register the SecurityServiceProvider
 $app->register(new SecurityServiceProvider(), array(
     'security.firewalls' => array(
         'admin' => array(
