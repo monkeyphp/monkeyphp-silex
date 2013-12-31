@@ -24,19 +24,29 @@ class __TwigTemplate_6194f4279a5475dab5f626b02b0cf7cb1de42b5a34b7768b56eb2e74b79
         <link rel=\"stylesheet\" href=\"/assets/css/styles.css\" />
     </head>
     <body>
-        ";
+        <esi:include src=\"";
         // line 9
+        echo $this->env->getExtension('routing')->getPath("index_header");
+        echo "\" />
+
+        ";
+        // line 11
         $this->displayBlock('content', $context, $blocks);
-        // line 12
-        echo "    </body>
+        // line 14
+        echo "
+        <esi:include src=\"";
+        // line 15
+        echo $this->env->getExtension('routing')->getPath("index_footer");
+        echo "\" />
+    </body>
 </html>
 ";
     }
 
-    // line 9
+    // line 11
     public function block_content($context, array $blocks = array())
     {
-        // line 10
+        // line 12
         echo "            Monkeyphp
         ";
     }
@@ -46,8 +56,13 @@ class __TwigTemplate_6194f4279a5475dab5f626b02b0cf7cb1de42b5a34b7768b56eb2e74b79
         return "layout.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  40 => 10,  37 => 9,  29 => 9,  20 => 2,  31 => 12,  28 => 4,);
+        return array (  50 => 12,  47 => 11,  39 => 15,  36 => 14,  34 => 11,  29 => 9,  20 => 2,);
     }
 }

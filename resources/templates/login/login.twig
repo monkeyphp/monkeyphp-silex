@@ -3,11 +3,37 @@
 
 {% block content %}
 
+<section>
+
+    {{ form_start(form, {action: path('admin_login_check'), method: 'post' }) }}
+        {{ form_errors(form) }}
+
+    <div>
+        {{ form_label(form._username) }}
+        {{ form_errors(form._username) }}
+        {{ form_widget(form._username, {name: '_username'}) }}
+    </div>
+
+    <div>
+        {{ form_label(form._password) }}
+        {{ form_errors(form._password) }}
+        {{ form_widget(form._password) }}
+    </div>
+
+    <div>
+        {{ form_widget(form.submit) }}
+    </div>
+
+{{ form_end(form) }}
+</section>
+{#
+
 <form action="{{ path('admin_login_check') }}" method="post">
-    {{ error }}
-    <input type="text" name="_username" value="{{ last_username }}" />
+
+    <input type="text" name="_username" value="" />
     <input type="password" name="_password" value="" />
     <input type="submit" />
 </form>
 
+#}
 {% endblock %}

@@ -1,14 +1,12 @@
 <?php
 namespace Monkeyphp\Controller;
 
-use Symfony\Component\Form\Form;
+use Monkeyphp\Form\LoginType;
 use Symfony\Component\Form\FormFactory;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Generator\UrlGenerator;
-use Symfony\Component\Validator\Constraints\Length;
-use Symfony\Component\Validator\Constraints\NotBlank;
 use Twig_Environment;
 
 /**
@@ -26,15 +24,21 @@ class LoginController
     
     /**
      *
-     * @var FormFactory
-     */
-    protected $formFactory;
-    
-    /**
-     *
      * @var UrlGenerator
      */
     protected $urlGenerator;
+
+    /**
+     *
+     * @var FormFactory
+     */
+    protected $formFactory;
+
+    /**
+     *
+     * @var LoginType
+     */
+    protected $loginForm;
     
     /**
      * Constructor
@@ -56,15 +60,6 @@ class LoginController
     {
         return $this->twigEnvironment;
     }
-    
-    /**
-     * 
-     * @return FormFactory
-     */
-    public function getFormFactory()
-    {
-        return $this->formFactory;
-    }
 
     public function setTwigEnvironment($twigEnvironment)
     {
@@ -72,12 +67,6 @@ class LoginController
         return $this;
     }
 
-    public function setFormFactory($formFactory)
-    {
-        $this->formFactory = $formFactory;
-        return $this;
-    }
-    
     public function getUrlGenerator()
     {
         return $this->urlGenerator;
@@ -86,6 +75,35 @@ class LoginController
     public function setUrlGenerator(UrlGenerator $urlGenerator)
     {
         $this->urlGenerator = $urlGenerator;
+        return $this;
+    }
+
+    public function getFormFactory()
+    {
+        return $this->formFactory;
+    }
+
+    public function setFormFactory(FormFactory $formFactory)
+    {
+        $this->formFactory = $formFactory;
+        return $this;
+    }
+
+    /**
+     * @link http://stackoverflow.com/questions/13384056/symfony2-1-using-form-with-method-get/13474522#13474522
+     * @return type
+     */
+    public function getLoginForm()
+    {
+        if (! isset($this->loginForm)) {
+            $this->loginForm = $this->getFormFactory()->createNamed(null, new LoginType());
+        }
+        return $this->loginForm;
+    }
+
+    public function setLoginForm(LoginType $loginForm)
+    {
+        $this->loginForm = $loginForm;
         return $this;
     }
 
@@ -100,56 +118,8 @@ class LoginController
     {
         $loginForm = $this->getLoginForm();
         
-        $loginForm->handleRequest($request);
-        
-        if ($loginForm->isValid()) {
-            
-            $url = $this->getUrlGenerator()->generate('admin_index');
-            $response = new RedirectResponse($url, 302, array());
-            return $response;
-        }
-        
-        $html = $this->getTwigEnvironment()->render('login/login.html', array('loginForm' => $loginForm->createView));
+        $html = $this->getTwigEnvironment()->render('login/login.twig', array('form' => $loginForm->createView()));
         $response = new Response($html, 200, array());
         return $response;
-    }
-    
-    /**
-     * Return an instance of Form configured for logging in
-     * 
-     * @return Form
-     */
-    protected function getLoginForm()
-    {
-        $form = $this->getFormFactory()
-            ->createBuilder('login')
-            ->add(
-                'username', 
-                'text',
-                array(
-                    'constraints' => array(
-                        new NotBlank(),
-                        new Length(array('min' => 8))
-                    )
-                )
-            )
-            ->add(
-                'password',
-                'password',
-                array(
-                    'constraints' => array(
-                        new NotBlank(),
-                        new Length(array('min' => 8))
-                    )
-                )
-            )
-            ->add(
-                'submit', 
-                'submit', 
-                array()
-            )
-            ->getForm();
-        
-        return $form;
     }
 }

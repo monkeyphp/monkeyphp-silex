@@ -6,8 +6,12 @@
         <link rel="stylesheet" href="/assets/css/styles.css" />
     </head>
     <body>
+        <esi:include src="{{ path('index_header') }}" />
+
         {% block content %}
             Monkeyphp
         {% endblock %}
+
+        <esi:include src="{{ path('index_footer') }}" />
     </body>
 </html>

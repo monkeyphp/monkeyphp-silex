@@ -86,7 +86,7 @@ class IndexController
      */
     public function headerAction(Request $request)
     {
-        $html = $this->getTwigEnvironment()->render('_header.twig', array());
+        $html = $this->getTwigEnvironment()->render('index/header.twig', array());
         $response = new Response($html, 200, array());
         return $response;
     }
@@ -100,7 +100,7 @@ class IndexController
      */
     public function footerAction(Request $request)
     {
-        $html = $this->getTwigEnvironment()->render('_footer.twig', array());
+        $html = $this->getTwigEnvironment()->render('index/footer.twig', array());
         $response = new Response($html, 200, array());
         return $response;
     }

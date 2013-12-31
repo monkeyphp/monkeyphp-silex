@@ -105,6 +105,24 @@ sub vcl_miss {
 }
 
 sub vcl_fetch {
+
+    /** add ESI processing to main routes **/
+    if (req.url == "/"        ||
+        req.url == "/about"   ||
+        req.url == "/contact" ||
+        req.url == "/login"   ||
+        req.url == "/admin"
+    ) {
+        set beresp.do_esi = true; /* do esi processing */
+    }
+
+    if (req.url == "/footer" ||
+        req.url == "/header"
+    ) {
+        /* nada atm */
+    }
+    
+
     if (beresp.ttl <= 0s ||
         beresp.http.Set-Cookie ||
         beresp.http.Vary == "*") {

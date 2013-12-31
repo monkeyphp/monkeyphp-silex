@@ -32,9 +32,11 @@ use Silex\Provider\FormServiceProvider;
 use Silex\Provider\MonologServiceProvider;
 use Silex\Provider\SecurityServiceProvider;
 use Silex\Provider\ServiceControllerServiceProvider;
+use Silex\Provider\SessionServiceProvider;
 use Silex\Provider\TranslationServiceProvider;
 use Silex\Provider\TwigServiceProvider;
 use Silex\Provider\UrlGeneratorServiceProvider;
+use Silex\Provider\ValidatorServiceProvider;
 use SilexAssetic\AsseticServiceProvider;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Request;
@@ -63,6 +65,16 @@ if (APPLICATION_ENV === 'development') {
     $app['debug'] = true;
     Debug::enable();
 }
+
+/*******************************************************************************
+ * register the SessionServiceProvider
+ *******************************************************************************/
+$app->register(new SessionServiceProvider());
+
+/*******************************************************************************
+ * register the ValidatorServiceProvider
+ *******************************************************************************/
+$app->register(new ValidatorServiceProvider());
 
 /*******************************************************************************
  * register the TwigServiceProvider
@@ -174,7 +186,7 @@ $app->register(new SecurityServiceProvider(), array(
                 'check_path' => '/admin/login_check',
             ),
             'logout' => array(
-                'logout_path' => '/logout'
+                'logout_path' => '/admin/logout'
             ),
             'users' => $app->share(function() use ($app) {
                 return new UserProvider($app['elasticsearch']);
@@ -213,7 +225,7 @@ $app['contact.controller'] = $app->share(function() use ($app) {
 /*******************************************************************************
  * LoginController
  *******************************************************************************/
-$pp['login.controller'] = $app->share(function() use ($app) {
+$app['login.controller'] = $app->share(function() use ($app) {
     $twigEnvironment = $app['twig'];
     $formFactory     = $app['form.factory'];
     $urlGenerator    = $app['url_generator'];
@@ -251,6 +263,40 @@ $app->get('/login', 'login.controller:loginAction')->bind('login_login');
 // register the '/admin' route
 $app->get('/admin', 'admin.controller:indexAction')->bind('admin_index');
 
+
+//$app->get('/setup', function() use ($app) {
+//
+//    // create an index
+////    $index = array(
+////        'index' => 'monkeyphp',
+////        'body' => array(
+////            'settings' => array(
+////                'number_of_shards' => 1,
+////                'number_of_replicas' => 1
+////            )
+////        )
+////    );
+////
+////    $a = $app['elasticsearch']->indices()->create($index);
+//
+//    $params = array(
+//        'index' => 'monkeyphp',
+//        'type' => 'user',
+//        'body' => array(
+//            'username'              => 'monkeyphp',
+//            'password'              => $app['security.encoder.digest']->encodePassword('vampcat81', ''),
+//            'roles'                 => array('ROLE_ADMIN'),
+//            'enabled'               => true,
+//            'userNonExpired'        => true,
+//            'credentialsNonExpired' => true,
+//            'userNonLocked'         => true
+//        ),
+//    );
+//
+//    //$b = $app['elasticsearch']->index($params);
+//
+//    var_dump($b);
+//});
 
 /*******************************************************************************
  * Run the application
