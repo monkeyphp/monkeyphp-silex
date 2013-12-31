@@ -22,7 +22,13 @@
         "symfony/translation": "~2.3",
         "symfony/locale": "~2.3",
         "videlalvaro/php-amqplib": "v2.2.3",
-        "elasticsearch/elasticsearch": "~0.4"
+        "elasticsearch/elasticsearch": "~0.4",
+        "symfony/process": "~2.1",
+        "kriswallsmith/assetic": "v1.1.2",
+        "mheap/Silex-Assetic": "*"
+    },
+    "require-dev": {
+         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
         "psr-0": {

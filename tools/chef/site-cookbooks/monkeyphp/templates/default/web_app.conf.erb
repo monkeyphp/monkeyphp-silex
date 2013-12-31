@@ -3,6 +3,8 @@
     ServerName <%= @params[:server_name] %>
     DocumentRoot <%= @params[:docroot] %>
 
+    SetEnv APPLICATION_ENV development
+
     <Directory <%= @params[:docroot] %>>
         AllowOverride All
         Order allow,deny

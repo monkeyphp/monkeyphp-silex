@@ -14,7 +14,7 @@
             "server_repl_password":   "password"
         },
         "monkeyphp": {
-            "docroot":     "/mnt/project/public",
+            "docroot":     "/mnt/project/web",
             "server_name": "monkeyphp.com.local",
             "server_port": "8080",
             "db_password": "monkeyphp_user"
