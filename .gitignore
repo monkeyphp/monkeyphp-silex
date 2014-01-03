@@ -8,3 +8,4 @@ tools/vagrant/.vagrant/
 cookbooks/
 tmp/
 .DS_Store
+resources/cache/assetic

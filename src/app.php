@@ -270,7 +270,16 @@ $app['about.controller'] = $app->share(function() use ($app) {
  * ArticleController
  *******************************************************************************/
 $app['article.controller'] = $app->share(function() use ($app) {
-    $articleController = new ArticleController();
+    $twigEnvironment     = $app['twig'];
+    $formFactory         = $app['form.factory'];
+    $urlGenerator        = $app['url_generator'];
+    $elasticsearchClient = $app['elasticsearch'];
+    $articleController = new ArticleController(
+        $twigEnvironment,
+        $formFactory,
+        $urlGenerator,
+        $elasticsearchClient
+    );
     return $articleController;
 });
 
@@ -392,13 +401,21 @@ $app->match('/about', 'about.controller:indexAction')
     ->method('GET')
     ->bind('about_index');
 
-$app->match('/article', 'article.controller:indexAction')->method('GET')->bind('article_index');
+$app->match('/article', 'article.controller:indexAction')
+    ->method('GET')
+    ->bind('article_index');
 
-$app->match('/message', 'message.controller:indexAction')->method('GET|POST')->bind('message_index');
+$app->match('/message', 'message.controller:indexAction')
+    ->method('GET|POST')
+    ->bind('message_index');
 
-$app->match('/message/thankyou', 'message.controller:thankyouAction')->method('GET')->bind('message_thankyou');
+$app->match('/message/thankyou', 'message.controller:thankyouAction')
+    ->method('GET')
+    ->bind('message_thankyou');
 
-$app->match('/login', 'login.controller:loginAction')->method('GET')->bind('login_login');
+$app->match('/login', 'login.controller:loginAction')
+    ->method('GET')
+    ->bind('login_login');
 
 /*******************************************************************************
  * Admin routes
@@ -432,10 +449,8 @@ $app->match('/admin/message/delete/{id}', 'admin.message.controller:deleteAction
     ->bind('admin_message_delete');
 
 
-
-
 /*******************************************************************************
- * Setup routes
+ * Setup routes - this needs moving into a seperate app/console
  *******************************************************************************/
 $app->get('/setup', function() use ($app) {
 
@@ -479,6 +494,58 @@ $app->get('/setup', function() use ($app) {
 //    );
 //    $c = $app['elasticsearch']->index($params);
 //    var_dump($c);
+
+    $params = array(
+        'index' => 'monkeyphp',
+        'type' => 'article',
+        'body' => array(
+            'title' => 'This is a test article about Php',
+            'category'  => 'Technology',
+            'summary'   => '__Some__ content *about* php',
+            'body'      => 'Lorem ipsom Php',
+            'published' => true,
+            'slug'      => 'something-about-php',
+            'created'   => new DateTime(),
+            'modified'  => new DateTime(),
+        )
+    );
+
+    $result = $app['elasticsearch']->index($params);
+
+    $params = array(
+        'index' => 'monkeyphp',
+        'type' => 'article',
+        'body' => array(
+            'title' => 'This is a test article about Javascript',
+            'category'  => 'Technology',
+            'summary'   => '__Some__ content *about* javascript',
+            'body'      => 'Lorem ipsom Javascript',
+            'published' => true,
+            'slug'      => 'something-about-javascript',
+            'created'   => new DateTime(),
+            'modified'  => new DateTime(),
+        )
+    );
+
+    $result = $app['elasticsearch']->index($params);
+
+    $params = array(
+        'index' => 'monkeyphp',
+        'type' => 'article',
+        'body' => array(
+            'title' => 'This is a test article about Elasticsearch',
+            'category'  => 'Technology',
+            'summary'   => '__Some__ content *about* elasticsearch',
+            'body'      => 'Lorem ipsom Elasticsearch',
+            'published' => false,
+            'slug'      => 'something-about-elasticsearch',
+            'created'   => new DateTime(),
+            'modified'  => new DateTime(),
+        )
+    );
+
+    $result = $app['elasticsearch']->index($params);
+
 });
 
 /*******************************************************************************

@@ -115,7 +115,7 @@ sub vcl_fetch {
         req.url == "/admin"            ||
         req.url == "/admin/article"    ||
         req.url == "/admin/about"      ||
-        req.url == "/admin/message
+        req.url == "/admin/message"
     ) {
         set beresp.do_esi = true; /* do esi processing */
     }

@@ -4112,3 +4112,60 @@ table {
 [2014-01-03 00:18:00] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
 [2014-01-03 00:18:00] myapp.INFO: > GET /footer [] []
 [2014-01-03 00:18:00] myapp.INFO: < 200 [] []
+[2014-01-03 11:04:44] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-03 11:04:44] myapp.INFO: > GET / [] []
+[2014-01-03 11:04:44] myapp.INFO: < 200 [] []
+[2014-01-03 11:04:44] myapp.CRITICAL: Assetic\Exception\FilterException: An error occurred while running:
+'/usr/local/bin/sass' '--load-path' '/mnt/project/src/../resources/assets/sass' '--scss' '--cache-location' '/tmp' '/tmp/assetic_sassRuNAEy'
+
+Error Output:
+sh: 1: /usr/local/bin/sass: not found
+
+
+Input:
+/* 
+    styles.css
+*/
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
+/*
+    variables
+*/
+$primary-color: #005B96;
+
+/*
+    .container
+*/
+.container {
+    
+    @include outer-container;
+    
+    .header, .content, .footer {
+        @include span-columns(8);
+        
+        @include media($tablet) {
+            @include span-columns(8);
+        }
+        
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+    
+}
+ (uncaught exception) at /mnt/project/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php line 40 {"exception":"[object] (Assetic\\Exception\\FilterException: An error occurred while running:\n'/usr/local/bin/sass' '--load-path' '/mnt/project/src/../resources/assets/sass' '--scss' '--cache-location' '/tmp' '/tmp/assetic_sassRuNAEy'\n\nError Output:\nsh: 1: /usr/local/bin/sass: not found\n\n\nInput:\n/* \n    styles.css\n*/\n@import \"bourbon/bourbon\";\n@import \"grid-settings\";\n@import \"neat/neat\";\n\n/*\n    variables\n*/\n$primary-color: #005B96;\n\n/*\n    .container\n*/\n.container {\n    \n    @include outer-container;\n    \n    .header, .content, .footer {\n        @include span-columns(8);\n        \n        @include media($tablet) {\n            @include span-columns(8);\n        }\n        \n        @include media($mobile) {\n            @include span-columns(4);\n        }\n    }\n    \n}\n at /mnt/project/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php:40)"} []
+[2014-01-03 11:04:44] myapp.INFO: < 500 [] []
+[2014-01-03 11:05:39] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-03 11:05:39] myapp.INFO: > GET / [] []
+[2014-01-03 11:05:39] myapp.INFO: < 200 [] []
+[2014-01-03 11:07:03] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-03 11:07:03] myapp.INFO: > GET / [] []
+[2014-01-03 11:07:03] myapp.INFO: < 200 [] []
+[2014-01-03 11:07:04] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-03 11:07:04] myapp.INFO: > GET /header [] []
+[2014-01-03 11:07:04] myapp.INFO: < 200 [] []
+[2014-01-03 11:07:04] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-03 11:07:04] myapp.INFO: > GET /footer [] []
+[2014-01-03 11:07:04] myapp.INFO: < 200 [] []
