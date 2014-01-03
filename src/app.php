@@ -471,33 +471,33 @@ $app->get('/setup', function() use ($app) {
 //
 //    $a = $app['elasticsearch']->indices()->create($index);
 
-//    $params = array(
-//        'index' => 'monkeyphp',
-//        'type' => 'user',
-//        'body' => array(
-//            'username'              => 'monkeyphp',
-//            'password'              => $app['security.encoder.digest']->encodePassword('vampcat81', ''),
-//            'roles'                 => array('ROLE_ADMIN'),
-//            'enabled'               => true,
-//            'userNonExpired'        => true,
-//            'credentialsNonExpired' => true,
-//            'userNonLocked'         => true
-//        ),
-//    );
-//
-//    $b = $app['elasticsearch']->index($params);
+    $params = array(
+        'index' => 'monkeyphp',
+        'type' => 'user',
+        'body' => array(
+            'username'              => 'monkeyphp',
+            'password'              => $app['security.encoder.digest']->encodePassword('vampcat81', ''),
+            'roles'                 => array('ROLE_ADMIN'),
+            'enabled'               => true,
+            'userNonExpired'        => true,
+            'credentialsNonExpired' => true,
+            'userNonLocked'         => true
+        ),
+    );
+
+    $app['elasticsearch']->index($params);
     
-//    $params = array(
-//        'index' => 'monkeyphp',
-//        'type' => 'about',
-//        'body' => array(
-//            'created' => new \DateTime(),
-//            'modified' => new \DateTime(),
-//            'body' => '__This__ is *the* about me content'
-//        )
-//    );
-//    $c = $app['elasticsearch']->index($params);
-//    var_dump($c);
+    $params = array(
+        'index' => 'monkeyphp',
+        'type' => 'about',
+        'body' => array(
+            'created' => new \DateTime(),
+            'modified' => new \DateTime(),
+            'body' => '__This__ is *the* about me content'
+        )
+    );
+    
+    $app['elasticsearch']->index($params);
 
     $params = array(
         'index' => 'monkeyphp',

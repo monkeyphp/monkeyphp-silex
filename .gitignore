@@ -9,3 +9,4 @@ cookbooks/
 tmp/
 .DS_Store
 resources/cache/assetic
+resources/cache/twig
