@@ -9,6 +9,8 @@ namespace Monkeyphp\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use DateTime;
+use DateTimeZone;
 
 /**
  * Description of ArticleController
@@ -19,7 +21,7 @@ class ArticleController
 {
     /**
      *
-     * @var \Twig_Environment
+     * @var Twig_Environment
      */
     protected $twigEnvironment;
 
@@ -79,19 +81,19 @@ class ArticleController
         return $this;
     }
 
-    public function setFormFactory(FormFactory $formFactory)
+    public function setFormFactory(\Symfony\Component\Form\FormFactory $formFactory)
     {
         $this->formFactory = $formFactory;
         return $this;
     }
 
-    public function setUrlGenerator(UrlGenerator $urlGenerator)
+    public function setUrlGenerator(\Symfony\Component\Routing\Generator\UrlGenerator $urlGenerator)
     {
         $this->urlGenerator = $urlGenerator;
         return $this;
     }
 
-    public function setElasticsearchClient(Client $elasticsearchClient)
+    public function setElasticsearchClient(\Elasticsearch\Client $elasticsearchClient)
     {
         $this->elasticsearchClient = $elasticsearchClient;
         return $this;
@@ -112,11 +114,28 @@ class ArticleController
             'index' => 'monkeyphp',
             'type'  => 'article',
             'body'  => array(
-                'filtered' => array(
-                    'filter' => array(
-                        'bool' => array(
-                            'must' => array(
-                                'published' => true
+                'fields' => array(
+                    'title',
+                    'category',
+                    'summary',
+                    'slug',
+                    'created',
+                    'modified'
+                ),
+                'query' => array(
+                    'filtered' => array(
+                        'filter' => array(
+                            'bool' => array(
+                                'must' => array(
+                                    'term' => array(
+                                        'published' => true,
+                                    ),
+                                ),
+                            ),
+                        ),
+                        'query' => array(
+                            'match_all' => array(
+                                //
                             ),
                         ),
                     ),
@@ -124,8 +143,58 @@ class ArticleController
             ),
         );
 
-        $html = '<p>I am the Article index template</p>';
-        
+        $result = $this->getElasticsearchClient()->search($params);
+
+        $articles = array();
+
+        if ($hits = (array_key_exists('hits', $result) && is_array($result['hits'])) ? $result['hits'] : false) {
+            if ($hits = (array_key_exists('hits', $hits) && is_array($hits['hits'])) ? $hits['hits'] : false) {
+                foreach ($hits as $hit) {
+                    if ((null !== ($id = (isset($hit['_id'])) ? $hit['_id'] : null)) &&
+                        $fields = (array_key_exists('fields', $hit) && is_array($hit['fields'])) ? $hit['fields'] : false
+                    ) {
+
+                        if (isset($fields['title']) &&
+                            isset($fields['slug']) &&
+                            isset($fields['summary'])
+                        ) {
+                            $created = $modified = null;
+
+                            if (isset($fields['created']) &&
+                                is_array($fields['created']) &&
+                                isset($fields['created']['date'])
+                            ) {
+                                $timezone = (isset($fields['created']['timezone'])) ? $fields['created']['timezone'] : null;
+                                $dateTimeZone = (! is_null($timezone) && is_string($timezone)) ? new DateTimeZone($timezone) : null;
+                                $created = new DateTime($fields['created']['date'], $dateTimeZone);
+                            }
+
+                            if (isset($fields['modified']) &&
+                                is_array($fields['modified']) &&
+                                isset($fields['modified']['date'])
+                            ) {
+                                $timezone = (isset($fields['modified']['timezone'])) ? $fields['modified']['timezone'] : null;
+                                $dateTimeZone = (! is_null($timezone) && is_string($timezone)) ? new DateTimeZone($timezone) : null;
+                                $modified = new DateTime($fields['modified']['date'], $dateTimeZone);
+                            }
+
+                            $articles[] = array(
+                                'id'       => $id,
+                                'title'    => $fields['title'],
+                                'category' => $fields['category'],
+                                'slug'     => $fields['slug'],
+                                'summary'  => $fields['summary'],
+                                'created'  => $created,
+                                'modifed'  => $modified
+                            );
+                        }
+
+                    }
+                }
+            }
+        }
+
+        $html = $this->getTwigEnvironment()->render('article/index.twig', array('articles' => $articles));
         return new Response($html, 200, array());
     }
 }

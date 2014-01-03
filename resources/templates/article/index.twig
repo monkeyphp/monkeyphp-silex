@@ -1,0 +1,12 @@
+{# src: resources/templates/article/index.twig #}
+
+{% extends "layout.twig" %}
+
+{% block content %}
+    I am the article index template
+
+    {% for article in articles %}
+    {% include "article/_article.twig" %}
+    {% endfor %}
+
+{% endblock %}

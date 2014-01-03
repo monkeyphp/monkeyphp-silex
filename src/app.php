@@ -405,6 +405,10 @@ $app->match('/article', 'article.controller:indexAction')
     ->method('GET')
     ->bind('article_index');
 
+$app->match('/article/{slug}', 'article.controller:readAction')
+    ->method('GET')
+    ->bind('article_read');
+
 $app->match('/message', 'message.controller:indexAction')
     ->method('GET|POST')
     ->bind('message_index');

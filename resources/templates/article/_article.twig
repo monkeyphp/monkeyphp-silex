@@ -1,0 +1,31 @@
+{# src: resources/templates/article/_article.twig #}
+{#
+    dates will be displayed as first 2 letters of month and the day
+    i.e Fe23 or Oc14
+#}
+<article class="article article--{{ article.category|lower }}">
+
+    <!-- meta -->
+    <div class="acticle__meta">
+        <!-- category -->
+        {{ article.category }}
+        <!-- /category -->
+
+        <!-- created -->
+        {{ article.created|date("M")|slice(0, 2)|title }} {{article.created|date('j') }}
+        <!-- /created -->
+    </div>
+    <!-- /meta -->
+
+    <div class="article__content">
+        {{ article.title }}
+
+        {% autoescape false %}
+        {{ article.summary|markdown }}
+        {% endautoescape %}
+
+        <a href="{{ path('article_read', {slug: article.slug}) }}">Read more &hellip;</a>
+    </div>
+
+    
+</article>
