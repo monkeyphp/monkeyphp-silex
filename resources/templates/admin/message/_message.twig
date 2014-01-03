@@ -1,0 +1,21 @@
+{# src: resources/templates/admin/message/_message.twig #}
+
+{# message email ip created modified #}
+<article>
+    <p>
+        {{ message.message }}
+    </p>
+    <p>
+        from {{ message.email }}
+        at {{ message.ip }}
+    </p>
+    
+    <!-- actions -->
+    <ul>
+        <li>
+            <a href="{{ path('admin_message_delete', {'id': message.id}) }}">Delete</a>
+        </li>
+    </ul>
+    <!-- /actions -->
+    
+</article>

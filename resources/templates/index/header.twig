@@ -1,5 +1,6 @@
 {# src: resources/templates/index/header.twig #}
-<header>
+<header class="header">
+    
     <nav>
         <ul>
             <li>
@@ -9,8 +10,12 @@
                 <a href="{{ path('about_index') }}">About</a>
             </li>
             <li>
-                <a href="{{ path('contact_index') }}">Contact</a>
+                <a href="{{ path('article_index') }}">Article</a>
+            </li>
+            <li>
+                <a href="{{ path('message_index') }}">Message Me</a>
             </li>
         </ul>
     </nav>
+    
 </header>

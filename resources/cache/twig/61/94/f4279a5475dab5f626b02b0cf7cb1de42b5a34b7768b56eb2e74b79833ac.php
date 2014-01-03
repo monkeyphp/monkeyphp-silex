@@ -18,37 +18,52 @@ class __TwigTemplate_6194f4279a5475dab5f626b02b0cf7cb1de42b5a34b7768b56eb2e74b79
     {
         // line 2
         echo "<!DOCTYPE html>
-<html>
+<html lang=\"en\">
     <head>
         <title>Monkeyphp</title>
+        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />
         <link rel=\"stylesheet\" href=\"/assets/css/styles.css\" />
     </head>
     <body>
-        <esi:include src=\"";
-        // line 9
+        
+        <section class=\"container\">
+            
+            <!-- header -->
+            <esi:include src=\"";
+        // line 14
         echo $this->env->getExtension('routing')->getPath("index_header");
         echo "\" />
-
-        ";
-        // line 11
+            <!-- /header -->
+            
+            <!-- content -->
+            <section class=\"content\">
+                ";
+        // line 19
         $this->displayBlock('content', $context, $blocks);
-        // line 14
-        echo "
-        <esi:include src=\"";
-        // line 15
+        // line 22
+        echo "            </section>
+            <!-- /content -->
+            
+            <!-- footer -->
+            <esi:include src=\"";
+        // line 26
         echo $this->env->getExtension('routing')->getPath("index_footer");
         echo "\" />
+            <!-- /footer -->
+            
+        </section>
+        
     </body>
 </html>
 ";
     }
 
-    // line 11
+    // line 19
     public function block_content($context, array $blocks = array())
     {
-        // line 12
-        echo "            Monkeyphp
-        ";
+        // line 20
+        echo "                    <p>Monkeyphp</p>
+                ";
     }
 
     public function getTemplateName()
@@ -63,6 +78,6 @@ class __TwigTemplate_6194f4279a5475dab5f626b02b0cf7cb1de42b5a34b7768b56eb2e74b79
 
     public function getDebugInfo()
     {
-        return array (  50 => 12,  47 => 11,  39 => 15,  36 => 14,  34 => 11,  29 => 9,  20 => 2,);
+        return array (  65 => 20,  62 => 19,  50 => 26,  44 => 22,  42 => 19,  34 => 14,  20 => 2,);
     }
 }

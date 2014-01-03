@@ -1,0 +1,30 @@
+{# empty Twig template #}
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<section>
+    
+    {{ form_start(form, {action: path('message_index') }) }}
+    
+    <div>
+        {{ form_label(form.email) }}
+        {{ form_errors(form.email) }}
+        {{ form_widget(form.email) }}
+    </div>
+    
+    <div>
+        {{ form_label(form.message) }}
+        {{ form_errors(form.message) }}
+        {{ form_widget(form.message) }}
+    </div>
+    
+    <div>
+        {{ form_widget(form.submit) }}
+    </div>
+    
+    {{ form_end(form) }}
+    
+</section>
+
+{% endblock %}

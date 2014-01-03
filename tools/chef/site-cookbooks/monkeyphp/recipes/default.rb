@@ -71,3 +71,7 @@ end
 tt = resources('template[/etc/varnish/default.vcl]')
 tt.source 'default.vcl.erb'
 tt.cookbook 'monkeyphp'
+
+package "ruby1.9.3" do
+    action :install
+end

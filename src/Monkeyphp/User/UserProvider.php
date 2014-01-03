@@ -1,9 +1,11 @@
 <?php
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * UserProvider.php
+ * 
+ * @category   Monkeyphp
+ * @package    Monkeyphp
+ * @subpackage Monkeyphp\User
+ * @author     David White <david@monkeyphp.com>
  */
 namespace Monkeyphp\User;
 
@@ -16,9 +18,12 @@ use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Security\Core\User\UserProviderInterface;
 
 /**
- * Description of UserProvider
- *
- * @author David White <david@monkeyphp.com>
+ * UserProvider
+ * 
+ * @category   Monkeyphp
+ * @package    Monkeyphp
+ * @subpackage Monkeyphp\User
+ * @author     David White <david@monkeyphp.com>
  */
 class UserProvider implements UserProviderInterface
 {   
@@ -42,12 +47,24 @@ class UserProvider implements UserProviderInterface
         $this->setElasticsearchClient($elasticsearchClient);
     }
     
+    /**
+     * Return the instance of Client
+     * 
+     * @return Client
+     */
     public function getElasticsearchClient()
     {
         return $this->elasticsearchClient;
     }
 
-    public function setElasticsearchClient($elasticsearchClient)
+    /**
+     * Set the instance of Client
+     * 
+     * @param Client $elasticsearchClient
+     * 
+     * @return UserProvider
+     */
+    public function setElasticsearchClient(Client $elasticsearchClient)
     {
         $this->elasticsearchClient = $elasticsearchClient;
         return $this;
@@ -126,8 +143,12 @@ class UserProvider implements UserProviderInterface
         $userNonLocked         = (isset($fields['userNonLocked']))         ? $fields['userNonLocked']         : false;
 
         $user = new User(
-            $username, $password, $roles,
-            $enabled, $userNonExpired, $credentialsNonExpired,
+            $username, 
+            $password,
+            $roles,
+            $enabled,
+            $userNonExpired,
+            $credentialsNonExpired,
             $userNonLocked
         );
 

@@ -1,0 +1,20 @@
+{# src: resources/templates/admin/about/index.twig #}
+
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<section>
+    
+    {% if about is defined %}
+        {% if about.body is defined %} 
+        {% autoescape false %}
+        {{ about.body|markdown }}
+        {% endautoescape %}
+        {% endif %}
+    {% else %}
+        
+    {% endif %}
+</section>
+
+{% endblock %}

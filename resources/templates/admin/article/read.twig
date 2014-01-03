@@ -1,0 +1,25 @@
+{# src: resources/templates/admin/article/read.twig #}
+
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<section>
+    
+    <h2>{{ article.title }}</h2>
+    
+    {% autoescape false %}
+    {{ article.summary|markdown }}
+    {% endautoescape %}
+    
+    {% autoescape false %}
+    {{ article.body|markdown }}
+    {% endautoescape %}
+    
+    {{ article.created }}
+    
+    {{ article.modified }}
+    
+</section>
+
+{% endblock %}

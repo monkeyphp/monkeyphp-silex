@@ -46,4 +46,6 @@ class AdminController
         $html = $this->getTwigEnvironment()->render('admin/index.twig', array());
         return new Response($html, 200, array());
     }
+    
+    
 }

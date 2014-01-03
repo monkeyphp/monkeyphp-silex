@@ -16,7 +16,7 @@ class __TwigTemplate_b9cfce53a39d3d3a4e6645e6c92ed8f267df39b8d5b92f8ed31d46cff72
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 2
-        echo "<footer>
+        echo "<footer class=\"footer\">
     <nav>
         <ul>
             <li>

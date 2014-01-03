@@ -7,3 +7,5 @@ gem 'capistrano', '~> 3.0.1'
 gem 'mime-types', '~>2.0'
 gem "librarian-chef"
 gem "sass"
+gem "bourbon"
+gem "neat"

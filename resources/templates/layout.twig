@@ -1,17 +1,32 @@
-{# empty Twig template #}
+{# src: resources/templates/layout.twig #}
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Monkeyphp</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" href="/assets/css/styles.css" />
     </head>
     <body>
-        <esi:include src="{{ path('index_header') }}" />
-
-        {% block content %}
-            Monkeyphp
-        {% endblock %}
-
-        <esi:include src="{{ path('index_footer') }}" />
+        
+        <section class="container">
+            
+            <!-- header -->
+            <esi:include src="{{ path('index_header') }}" />
+            <!-- /header -->
+            
+            <!-- content -->
+            <section class="content">
+                {% block content %}
+                    <p>Monkeyphp</p>
+                {% endblock %}
+            </section>
+            <!-- /content -->
+            
+            <!-- footer -->
+            <esi:include src="{{ path('index_footer') }}" />
+            <!-- /footer -->
+            
+        </section>
+        
     </body>
 </html>

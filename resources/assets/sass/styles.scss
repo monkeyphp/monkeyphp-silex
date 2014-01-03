@@ -1,5 +1,32 @@
+/* 
+    styles.css
+*/
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "neat/neat";
 
-* {
-    color: red;
+/*
+    variables
+*/
+$primary-color: #005B96;
+
+/*
+    .container
+*/
+.container {
+    
+    @include outer-container;
+    
+    .header, .content, .footer {
+        @include span-columns(8);
+        
+        @include media($tablet) {
+            @include span-columns(8);
+        }
+        
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+    
 }
-

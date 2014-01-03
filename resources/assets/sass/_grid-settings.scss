@@ -1,0 +1,72 @@
+/* 
+    Created on : 02-Jan-2014, 20:09:11
+    Author     : David White <david@monkeyphp.com>
+*/
+
+/*
+    @see https://github.com/thoughtbot/neat
+*/
+@import "neat/neat-helpers";
+
+/*
+    @see http://neat.bourbon.io/docs/#border-box-sizing
+*/
+$border-box-sizing: true;
+
+/*
+    @see http://neat.bourbon.io/docs/#max-width
+*/
+$max-width: em(675);
+
+/*
+    @see http://neat.bourbon.io/docs/#column
+*/
+$column: golden-ratio(1em, 3);
+
+/*
+    @see http://neat.bourbon.io/docs/#default-feature 
+*/
+$default-feature: "min-width";
+
+/*
+    @see http://neat.bourbon.io/docs/#default-layout-direction
+*/
+$default-layout-direction: "LTR";
+
+/*
+    @see http://neat.bourbon.io/docs/#grids-columns
+*/
+$grid-columns: 8;
+
+/*
+    @see http://neat.bourbon.io/docs/#gutter
+*/
+$gutter: golden-ratio(1em, 1);
+
+
+
+/*
+    @see http://neat.bourbon.io/docs/#visual-grid-color
+*/
+$visual-grid-color: #EEE;
+
+/*
+    @see http://neat.bourbon.io/docs/#visual-grid-index
+*/
+$visual-grid-index: "front";
+
+/*
+    http://neat.bourbon.io/docs/#visual-grid-opacity
+*/
+$visual-grid-opacity: 0.4;
+
+/*
+    @see http://neat.bourbon.io/docs/#visual-grid
+*/
+$visual-grid: true;
+
+/*
+    breakpoints
+*/
+$tablet: new-breakpoint(max-width 540px 8);
+$mobile: new-breakpoint(max-width 480px 4);

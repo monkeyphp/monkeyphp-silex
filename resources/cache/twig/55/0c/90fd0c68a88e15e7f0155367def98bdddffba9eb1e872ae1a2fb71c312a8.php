@@ -28,9 +28,23 @@ class __TwigTemplate_550c90fd0c68a88e15e7f0155367def98bdddffba9eb1e872ae1a2fb71c
     public function block_content($context, array $blocks = array())
     {
         // line 5
-        echo "<p>
-    Admin index view
-</p>
+        echo "<section>
+    <p>
+        Admin index view
+    </p>
+</section>
+
+<section>
+    <p>
+        Blog Summary
+    </p>
+</section>
+
+<section>
+    <p>
+        Messages summary
+    </p>
+</section>
 ";
     }
 

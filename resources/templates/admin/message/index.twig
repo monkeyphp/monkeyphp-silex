@@ -1,0 +1,16 @@
+{# src: resources/templates/admin/message/index.twig #}
+{# render the messages #}
+
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<section>
+
+    {% for message in messages %}
+    {% include "admin/message/_message.twig" %}
+    {% endfor %}
+    
+</section>
+
+{% endblock %}

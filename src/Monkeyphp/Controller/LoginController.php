@@ -49,8 +49,11 @@ class LoginController
      * 
      * @return void
      */
-    public function __construct(Twig_Environment $twigEnvironment, FormFactory $formFactory, UrlGenerator $urlGenerator)
-    {
+    public function __construct(
+        Twig_Environment $twigEnvironment,
+        FormFactory $formFactory,
+        UrlGenerator $urlGenerator
+    ) {
         $this->setTwigEnvironment($twigEnvironment);
         $this->setFormFactory($formFactory);
         $this->setUrlGenerator($urlGenerator);

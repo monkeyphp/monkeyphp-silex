@@ -28,9 +28,32 @@ class __TwigTemplate_3317ec334ad9f1b16222704cc87b5853fe1f4b115dc86146c3eb966f76f
     public function block_content($context, array $blocks = array())
     {
         // line 5
-        echo "<p>
-    This is the About index page
-</p>
+        echo "
+    ";
+        // line 6
+        if (array_key_exists("about", $context)) {
+            // line 7
+            echo "        ";
+            if ($this->getAttribute($this->getContext($context, "about", true), "body", array(), "any", true, true)) {
+                echo " 
+        ";
+                // line 9
+                echo "        ";
+                echo call_user_func_array($this->env->getFilter('markdown')->getCallable(), array($this->getAttribute($this->getContext($context, "about"), "body")));
+                echo "
+        ";
+                // line 11
+                echo "        ";
+            }
+            // line 12
+            echo "    ";
+        } else {
+            // line 13
+            echo "        
+    ";
+        }
+        // line 15
+        echo "
 ";
     }
 
@@ -46,6 +69,6 @@ class __TwigTemplate_3317ec334ad9f1b16222704cc87b5853fe1f4b115dc86146c3eb966f76f
 
     public function getDebugInfo()
     {
-        return array (  31 => 5,  28 => 4,);
+        return array (  56 => 15,  52 => 13,  49 => 12,  46 => 11,  41 => 9,  36 => 7,  34 => 6,  31 => 5,  28 => 4,);
     }
 }
