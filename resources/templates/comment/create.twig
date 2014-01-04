@@ -1,0 +1,27 @@
+{# src: resources/templates/comment/create.twig #}
+
+<section>
+    
+    {{ form_start(form) }}
+    
+    {{ form_widget(form.article) }}
+    
+    <div>
+        {{ form_label(form.email) }}
+        {{ form_errors(form.email) }}
+        {{ form_widget(form.email) }}
+    </div>
+    
+    <div>
+        {{ form_label(form.body) }}
+        {{ form_errors(form.body) }}
+        {{ form_widget(form.body) }}
+    </div>
+    
+    <div>
+        {{ form_widget(form.submit) }}
+    </div>
+    
+    {{ form_end(form) }}
+    
+</section>

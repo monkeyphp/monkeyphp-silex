@@ -107,16 +107,17 @@ sub vcl_miss {
 sub vcl_fetch {
 
     /** add ESI processing to main routes **/
-    if (req.url == "/"                 ||
-        req.url == "/about"            ||
-        req.url == "/message"          ||
-        req.url == "/message/thankyou" ||
-        req.url == "/article"          ||
-        req.url ~  "/article/.*        ||
-        req.url == "/login"            ||
-        req.url == "/admin"            ||
-        req.url == "/admin/article"    ||
-        req.url == "/admin/about"      ||
+    if (req.url == "/"                    ||
+        req.url == "/about"               ||
+        req.url == "/message"             || 
+        req.url == "/message/thankyou"    ||
+        req.url == "/article"             ||
+        req.url ~  "/article/.*"          ||
+        req.url ~  "/article/comments/.*" ||
+        req.url == "/login"               ||
+        req.url == "/admin"               ||
+        req.url == "/admin/article"       ||
+        req.url == "/admin/about"         ||
         req.url == "/admin/message"
     ) {
         set beresp.do_esi = true; /* do esi processing */

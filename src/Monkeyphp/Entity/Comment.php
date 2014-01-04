@@ -13,6 +13,7 @@ namespace Monkeyphp\Entity;
  */
 class Comment extends AbstractEntity
 {
+    
     protected $created;
     protected $modified;
     protected $body;

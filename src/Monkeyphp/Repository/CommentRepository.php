@@ -6,6 +6,9 @@
  * and open the template in the editor.
  */
 namespace Monkeyphp\Repository;
+
+use DateTime;
+use Monkeyphp\Entity\Comment;
 /**
  * Description of CommentRepository
  *
@@ -13,6 +16,30 @@ namespace Monkeyphp\Repository;
  */
 class CommentRepository extends AbstractRepository
 {
+    /**
+     * 
+     * @param \Monkeyphp\Repository\Comment $comment
+     */
+    public function saveComment(Comment $comment)
+    {
+        $params = array(
+            'index'  => 'monkeyphp',
+            'type'   => 'comment',
+            'parent' => $comment->getArticleId(),
+            'body'   => array(
+                'created'   => '', 
+                'modified'  => '', 
+                'body'      => $comment->getBody(), 
+                'ip'        => $comment->getIp(), 
+                'email'     => $comment->getEmail(),
+                'published' => $comment->getPublished()
+            )
+        );
+        
+        $result = $this->getElasticsearchClient()->index($params);
+        
+    }
+    
     /**
      * 
      * @param string $id
@@ -53,15 +80,15 @@ class CommentRepository extends AbstractRepository
                         
                         $options = array(
                             'id'       => $id,
-                            'created'  => new \DateTime($fields['created']),
-                            'modified' => new \DateTime($fields['modified']),
+                            'created'  => new DateTime($fields['created']),
+                            'modified' => new DateTime($fields['modified']),
                             'body'     => $fields['body'],
                             'ip'       => $fields['ip'],
                             'email'    => $fields['email']
                             
                         );
                         
-                        $comment = new \Monkeyphp\Entity\Comment($options);
+                        $comment = new Comment($options);
                         
                         $comments[] = $comment;
                     }

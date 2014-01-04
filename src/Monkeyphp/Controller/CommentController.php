@@ -7,8 +7,12 @@
  */
 namespace Monkeyphp\Controller;
 
+use DateTime;
+use Monkeyphp\Entity\Comment;
+use Monkeyphp\Form\CommentType;
 use Monkeyphp\Repository\CommentRepository;
 use Symfony\Component\Form\FormFactory;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Generator\UrlGenerator;
@@ -118,6 +122,42 @@ class CommentController
     {
         $comments = $this->getCommentRepository()->fetchCommentsByArticleId($id);
         $html = $this->getTwigEnvironment()->render('comment/index.twig', array('comments' => $comments));
+        return new Response($html, 200, array());
+    }
+    
+    public function createAction(Request $request, $id)
+    {
+        $form = $this->getFormFactory()->create(
+            new CommentType(), 
+            null, 
+            array(
+                'action' => $this->getUrlGenerator()->generate('comment_create', array('id' => $id)),
+                'article' => $id)
+        );
+        
+        $form->handleRequest($request);
+        
+        if ($form->isValid()) {
+            
+            $data = $form->getData();
+            
+            $options = array(
+                'email'     => $data['email'],
+                'body'      => $data['body'],
+                'created'   => new DateTime(),
+                'modified'  => new DateTime(),
+                'published' => false
+            );
+            
+            $comment = new Comment($options);
+            
+            if ($this->getCommentRepository()->saveComment($comment)) {
+                $url = $this->getUrlGenerator()->generate('article_read', array('slug' => $slug));
+                return new RedirectResponse($url, 302, array());
+            }
+        }
+        
+        $html = $this->getTwigEnvironment()->render('comment/create.twig', array('form' => $form->createView()));
         return new Response($html, 200, array());
     }
 }

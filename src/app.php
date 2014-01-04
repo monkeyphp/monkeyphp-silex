@@ -469,6 +469,10 @@ $app->match('/article/comments/{id}', 'comment.controller:indexAction')
     ->method('GET')
     ->bind('comment_index');
 
+$app->match('/comment/create/{id}', 'comment.controller:createAction')
+    ->method('GET|POST')
+    ->bind('comment_create');
+        
 $app->match('/message', 'message.controller:indexAction')
     ->method('GET|POST')
     ->bind('message_index');

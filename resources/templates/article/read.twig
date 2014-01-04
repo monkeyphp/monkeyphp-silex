@@ -26,4 +26,8 @@
     <esi:include src="{{ path('comment_index', {'id': article.id}) }}" />
     <!-- /comments -->
     
+    <!-- comment form -->
+    <esi:include src="{{ path('comment_create', {'id': article.id}) }}" />
+    <!-- /comment form -->
+    
 {% endblock %}
