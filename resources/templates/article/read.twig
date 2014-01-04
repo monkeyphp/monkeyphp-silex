@@ -1,0 +1,29 @@
+{# src: resources/templates/article/read.twig #}
+
+{% extends "layout.twig" %}
+
+{% block content %}
+    
+    <!-- title -->
+    {{ article.title }}
+    <!-- /title -->
+    
+    <!-- body -->
+    {% autoescape false %}
+    {{ article.body|markdown }}
+    {% endautoescape %}
+    <!-- /body -->
+    
+    {% if article.tags is defined %}
+    <ul>
+        {% for tag in article.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    
+    <!-- comments -->
+    <esi:include src="{{ path('comment_index', {'id': article.id}) }}" />
+    <!-- /comments -->
+    
+{% endblock %}

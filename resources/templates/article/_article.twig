@@ -3,13 +3,11 @@
     dates will be displayed as first 2 letters of month and the day
     i.e Fe23 or Oc14
 #}
-<article class="article article--{{ article.category|lower }}">
+<article class="article">
 
     <!-- meta -->
     <div class="acticle__meta">
-        <!-- category -->
-        {{ article.category }}
-        <!-- /category -->
+        
 
         <!-- created -->
         {{ article.created|date("M")|slice(0, 2)|title }} {{article.created|date('j') }}

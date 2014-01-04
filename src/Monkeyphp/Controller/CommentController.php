@@ -1,15 +1,13 @@
 <?php
-/**
- * ArticleController.php
- * 
- * @category   Monkeyphp
- * @package    Monkeyphp
- * @subpackage Monkeyphp\Controller
- * @author     David White <david@monkeyphp.com>
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 namespace Monkeyphp\Controller;
 
-use Monkeyphp\Repository\ArticleRepository;
+use Monkeyphp\Repository\CommentRepository;
 use Symfony\Component\Form\FormFactory;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -17,14 +15,11 @@ use Symfony\Component\Routing\Generator\UrlGenerator;
 use Twig_Environment;
 
 /**
- * ArticleController
- * 
- * @category   Monkeyphp
- * @package    Monkeyphp
- * @subpackage Monkeyphp\Controller
- * @author     David White <david@monkeyphp.com>
+ * Description of CommentController
+ *
+ * @author David White <david@monkeyphp.com>
  */
-class ArticleController
+class CommentController
 {
     /**
      * Instance of Twig_Environment
@@ -49,9 +44,9 @@ class ArticleController
 
     /**
      *
-     * @var ArticleRepository
+     * @var CommentRepository
      */
-    protected $articleRepository;
+    protected $commentRepository;
     
     /**
      * Constructor
@@ -59,7 +54,7 @@ class ArticleController
      * @param Twig_Environment  $twigEnvironment
      * @param FormFactory       $formFactory
      * @param UrlGenerator      $urlGenerator
-     * @param ArticleRepository $articleRepository
+     * @param CommentRepository $commentRepository
      * 
      * @return void
      */
@@ -67,14 +62,14 @@ class ArticleController
         Twig_Environment $twigEnvironment,
         FormFactory $formFactory,
         UrlGenerator $urlGenerator,
-        ArticleRepository $articleRepository
+        CommentRepository $commentRepository
     ) {
         $this->setTwigEnvironment($twigEnvironment);
         $this->setFormFactory($formFactory);
         $this->setUrlGenerator($urlGenerator);
-        $this->setArticleRepository($articleRepository);
+        $this->setCommentRepository($commentRepository);
     }
-
+    
     public function getTwigEnvironment()
     {
         return $this->twigEnvironment;
@@ -89,16 +84,10 @@ class ArticleController
     {
         return $this->urlGenerator;
     }
-    
-    public function getArticleRepository()
-    {
-        return $this->articleRepository;
-    }
 
-    public function setArticleRepository(ArticleRepository $articleRepository)
+    public function getCommentRepository()
     {
-        $this->articleRepository = $articleRepository;
-        return $this;
+        return $this->commentRepository;
     }
 
     public function setTwigEnvironment(Twig_Environment $twigEnvironment)
@@ -119,33 +108,16 @@ class ArticleController
         return $this;
     }
 
-    /**
-     * List all of the current published articles in the database
-     *
-     * @param Request $request
-     * 
-     * @return Response
-     */
-    public function indexAction(Request $request)
+    public function setCommentRepository(CommentRepository $commentRepository)
     {
-        $articles = $this->getArticleRepository()->fetchArticles();
-        $html = $this->getTwigEnvironment()->render('article/index.twig', array('articles' => $articles));
+        $this->commentRepository = $commentRepository;
+        return $this;
+    }
+
+    public function indexAction(Request $request, $id)
+    {
+        $comments = $this->getCommentRepository()->fetchCommentsByArticleId($id);
+        $html = $this->getTwigEnvironment()->render('comment/index.twig', array('comments' => $comments));
         return new Response($html, 200, array());
     }
-    
-    /**
-     * Read action
-     * 
-     * @param Request $request
-     * @param string  $slug
-     * 
-     * @return Response
-     */
-    public function readAction(Request $request, $slug)
-    {
-        $article = $this->getArticleRepository()->findArticleBySlug($slug);
-        $html = $this->getTwigEnvironment()->render('article/read.twig', array('article' => $article));
-        return new Response($html, 200, array());
-    }
-     
 }
