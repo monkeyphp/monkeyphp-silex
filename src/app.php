@@ -41,8 +41,8 @@ use Monkeyphp\Controller\LoginController;
 use Monkeyphp\Controller\MessageController;
 use Monkeyphp\Provider\ElasticSearchServiceProvider;
 use Monkeyphp\Provider\MemcachedServiceProvider;
+use Monkeyphp\Repository\AboutRepository;
 use Monkeyphp\Repository\ArticleRepository;
-use Monkeyphp\Repository\CommentRepository;
 use Monkeyphp\Twig\Extension;
 use Monkeyphp\User\UserProvider;
 use Psr\Log\LogLevel;
@@ -271,13 +271,12 @@ $app['article.repository'] = $app->share(function() use ($app) {
 });
 
 /*******************************************************************************
- * CommentRepository
+ * AboutRepository
  *******************************************************************************/
-$app['comment.repository'] = $app->share(function() use ($app) {
+$app['about.repository'] = $app->share(function() use ($app) {
     $elasticsearchClient = $app['elasticsearch'];
-    $memcached           = $app['memcached'];
-    $commentRepository = new CommentRepository($elasticsearchClient, $memcached);
-    return $commentRepository;
+    $aboutRepository = new AboutRepository($elasticsearchClient);
+    return $aboutRepository;
 });
 
 /*******************************************************************************
@@ -302,8 +301,8 @@ $app['index.controller'] = $app->share(function() use ($app) {
  *******************************************************************************/
 $app['about.controller'] = $app->share(function() use ($app) {
     $twigEnvironment = $app['twig'];
-    $elasticsearch   = $app['elasticsearch'];
-    $aboutController = new AboutController($twigEnvironment, $elasticsearch);
+    $aboutRepository = $app['about.repository'];
+    $aboutController = new AboutController($twigEnvironment, $aboutRepository);
     return $aboutController;
 });
 
@@ -330,12 +329,12 @@ $app['comment.controller'] = $app->share(function() use ($app) {
     $twigEnvironment     = $app['twig'];
     $formFactory         = $app['form.factory'];
     $urlGenerator        = $app['url_generator'];
-    $commentRepository   = $app['comment.repository'];
+    $articleRepository   = $app['article.repository'];
     $commentController = new CommentController(
         $twigEnvironment,
         $formFactory,
         $urlGenerator,
-        $commentRepository
+        $articleRepository
     );
     return $commentController;
 });
@@ -472,6 +471,10 @@ $app->match('/article/comments/{id}', 'comment.controller:indexAction')
 $app->match('/comment/create/{id}', 'comment.controller:createAction')
     ->method('GET|POST')
     ->bind('comment_create');
+
+$app->match('/comment/thankyou', 'comment.controller:thankyouAction')
+    ->method('GET')
+    ->bind('comment_thankyou');
         
 $app->match('/message', 'message.controller:indexAction')
     ->method('GET|POST')

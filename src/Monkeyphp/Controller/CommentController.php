@@ -10,7 +10,7 @@ namespace Monkeyphp\Controller;
 use DateTime;
 use Monkeyphp\Entity\Comment;
 use Monkeyphp\Form\CommentType;
-use Monkeyphp\Repository\CommentRepository;
+use Monkeyphp\Repository\ArticleRepository;
 use Symfony\Component\Form\FormFactory;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -25,6 +25,8 @@ use Twig_Environment;
  */
 class CommentController
 {
+    const SESSION_COMMENT_KEY = 'mnkyphpcmmntky';
+    
     /**
      * Instance of Twig_Environment
      * 
@@ -48,9 +50,9 @@ class CommentController
 
     /**
      *
-     * @var CommentRepository
+     * @var ArticleRepository
      */
-    protected $commentRepository;
+    protected $articleRepository;
     
     /**
      * Constructor
@@ -63,15 +65,15 @@ class CommentController
      * @return void
      */
     public function __construct(
-        Twig_Environment $twigEnvironment,
-        FormFactory $formFactory,
-        UrlGenerator $urlGenerator,
-        CommentRepository $commentRepository
+        Twig_Environment  $twigEnvironment,
+        FormFactory       $formFactory,
+        UrlGenerator      $urlGenerator,
+        ArticleRepository $articleRepository
     ) {
         $this->setTwigEnvironment($twigEnvironment);
         $this->setFormFactory($formFactory);
         $this->setUrlGenerator($urlGenerator);
-        $this->setCommentRepository($commentRepository);
+        $this->setArticleRepository($articleRepository);
     }
     
     public function getTwigEnvironment()
@@ -89,10 +91,6 @@ class CommentController
         return $this->urlGenerator;
     }
 
-    public function getCommentRepository()
-    {
-        return $this->commentRepository;
-    }
 
     public function setTwigEnvironment(Twig_Environment $twigEnvironment)
     {
@@ -112,27 +110,34 @@ class CommentController
         return $this;
     }
 
-    public function setCommentRepository(CommentRepository $commentRepository)
+    public function getArticleRepository()
     {
-        $this->commentRepository = $commentRepository;
+        return $this->articleRepository;
+    }
+
+    public function setArticleRepository(ArticleRepository $articleRepository)
+    {
+        $this->articleRepository = $articleRepository;
         return $this;
     }
 
+        
     public function indexAction(Request $request, $id)
     {
-        $comments = $this->getCommentRepository()->fetchCommentsByArticleId($id);
+        $comments = $this->getArticleRepository()->fetchCommentsByArticle($id);
         $html = $this->getTwigEnvironment()->render('comment/index.twig', array('comments' => $comments));
         return new Response($html, 200, array());
     }
     
     public function createAction(Request $request, $id)
-    {
+    {   
         $form = $this->getFormFactory()->create(
             new CommentType(), 
-            null, 
+            null,
             array(
-                'action' => $this->getUrlGenerator()->generate('comment_create', array('id' => $id)),
-                'article' => $id)
+                'action'  => $this->getUrlGenerator()->generate('comment_create', array('id' => $id)),
+                'article' => $id
+            )
         );
         
         $form->handleRequest($request);
@@ -141,20 +146,27 @@ class CommentController
             
             $data = $form->getData();
             
-            $options = array(
+            $options = array (
                 'email'     => $data['email'],
                 'body'      => $data['body'],
                 'created'   => new DateTime(),
                 'modified'  => new DateTime(),
-                'published' => false
+                'ip'        => $request->getClientIp(),
+                'published' => false,
+                'articleId' => $data['article']
             );
             
             $comment = new Comment($options);
             
-            if ($this->getCommentRepository()->saveComment($comment)) {
-                $url = $this->getUrlGenerator()->generate('article_read', array('slug' => $slug));
+            if (null !== ($id = $this->getArticleRepository()->saveComment($comment))) {
+                
+                $this->getSession()->set(self::SESSION_COMMENT_KEY, $id);
+                $url = $this->getUrlGenerator()->generate('comment_thankyou');
                 return new RedirectResponse($url, 302, array());
+                //$url = $this->getUrlGenerator()->generate('article_read', array('slug' => $slug));
             }
+            
+            throw new \Exception('Could not save the Comment');
         }
         
         $html = $this->getTwigEnvironment()->render('comment/create.twig', array('form' => $form->createView()));

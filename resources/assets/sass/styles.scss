@@ -30,3 +30,20 @@ $primary-color: #005B96;
     }
     
 }
+
+/*
+    div.article__tags
+*/
+.article__tags {
+    
+}
+/*
+    .article__tags a 
+*/
+.article__tags a {
+    display: inline-block;
+    color: white;
+    background-color: #e95c33;
+    padding: .1em .5em .25em;
+    border-radius: 5px;
+}

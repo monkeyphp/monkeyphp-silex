@@ -20,6 +20,7 @@ class Comment extends AbstractEntity
     protected $ip;
     protected $email;
     protected $published;
+    protected $articleId;
     
     public function getCreated()
     {
@@ -84,6 +85,17 @@ class Comment extends AbstractEntity
     public function setPublished($published)
     {
         $this->published = $published;
+        return $this;
+    }
+
+    public function getArticleId()
+    {
+        return $this->articleId;
+    }
+
+    public function setArticleId($articleId)
+    {
+        $this->articleId = $articleId;
         return $this;
     }
 

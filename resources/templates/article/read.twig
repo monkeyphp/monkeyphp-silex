@@ -3,10 +3,12 @@
 {% extends "layout.twig" %}
 
 {% block content %}
-    
-    <!-- title -->
-    {{ article.title }}
-    <!-- /title -->
+
+<section>
+
+    <h2>
+        {{ article.title }}
+    </h2>
     
     <!-- body -->
     {% autoescape false %}
@@ -15,11 +17,11 @@
     <!-- /body -->
     
     {% if article.tags is defined %}
-    <ul>
+    <div class="article__tags">
         {% for tag in article.tags %}
-        <li>{{ tag }}</li>
+        <a>{{ tag|lower }}</a>
         {% endfor %}
-    </ul>
+    </div>
     {% endif %}
     
     <!-- comments -->
@@ -29,5 +31,6 @@
     <!-- comment form -->
     <esi:include src="{{ path('comment_create', {'id': article.id}) }}" />
     <!-- /comment form -->
-    
+
+</section>
 {% endblock %}
