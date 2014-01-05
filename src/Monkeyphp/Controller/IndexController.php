@@ -64,7 +64,7 @@ class IndexController
     }
 
     /**
-     * IndexAction
+     * Index action
      * 
      * @param Request $request
      * 
@@ -78,7 +78,7 @@ class IndexController
     }
     
     /**
-     * HeaderAction
+     * Header action
      * 
      * @param Request $request
      * 
@@ -92,7 +92,7 @@ class IndexController
     }
     
     /**
-     * FooterAction
+     * Footer action
      * 
      * @param Request $request
      * 
@@ -101,6 +101,20 @@ class IndexController
     public function footerAction(Request $request)
     {
         $html = $this->getTwigEnvironment()->render('index/footer.twig', array());
+        $response = new Response($html, 200, array());
+        return $response;
+    }
+    
+    /**
+     * Social action
+     * 
+     * @param Request $request
+     * 
+     * @return Response
+     */
+    public function socialAction(Request $request)
+    {
+        $html = $this->getTwigEnvironment()->render('index/social.twig', array());
         $response = new Response($html, 200, array());
         return $response;
     }

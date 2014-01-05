@@ -452,6 +452,10 @@ $app->match('/header', 'index.controller:headerAction')
     ->method('GET')
     ->bind('index_header');
 
+$app->match('/social', 'index.controller:socialAction')
+    ->method('GET')
+    ->bind('index_social');
+
 $app->match('/about', 'about.controller:indexAction')
     ->method('GET')
     ->bind('about_index');

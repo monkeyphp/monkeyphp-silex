@@ -465,35 +465,125 @@ table {
   *zoom: 1;
   max-width: 42.1875em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  /*    .content {
+          @include span-columns(8);
+          
+          @include media($tablet) {
+              @include span-columns(8);
+          }
+          
+          @include media($mobile) {
+              @include span-columns(4);
+          }
+      }*/ }
   .container:before, .container:after {
     content: " ";
     display: table; }
   .container:after {
     clear: both; }
-  .container .header, .container .content, .container .footer {
-    float: left;
+
+/*
+    .header 
+*/
+.header {
+  background-color: lightslategray; }
+  .header a {
+    text-decoration: none; }
+  .header .brand {
+    background-color: palegoldenrod; }
+  .header .strapline {
+    background-color: paleturquoise; }
+
+/*
+    .content 
+*/
+.content {
+  /*background-color: peachpuff;*/
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 74.10533%;
+  margin-left: 12.94733%; }
+  .content:last-child {
+    margin-right: 0; }
+  .content .articles .article {
+    /*background-color: lightskyblue;*/
+    /*border: 1px solid black;*/
+    margin-top: 2em;
+    margin-bottom: 4em; }
+    .content .articles .article .article__meta {
+      /*background-color: lightcoral;*/ }
+      .content .articles .article .article__meta .article__meta__date {
+        text-align: center; }
+    .content .articles .article .article__title {
+      /*background-color: lightsalmon;*/
+      text-align: center;
+      font-size: 2em; }
+      .content .articles .article .article__title a {
+        text-decoration: none; }
+    .content .articles .article .article__content {
+      /*background-color: lightyellow;*/
+      text-align: justify; }
+  .content .articles .article__link {
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: block;
-    margin-right: 3.57866%;
-    width: 100%; }
-    .container .header:last-child, .container .content:last-child, .container .footer:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 540px) {
-      .container .header, .container .content, .container .footer {
-        float: left;
-        display: block;
-        margin-right: 3.57866%;
-        width: 100%; }
-        .container .header:last-child, .container .content:last-child, .container .footer:last-child {
-          margin-right: 0; } }
-    @media screen and (max-width: 480px) {
-      .container .header, .container .content, .container .footer {
-        float: left;
-        display: block;
-        margin-right: 7.42297%;
-        width: 100%; }
-        .container .header:last-child, .container .content:last-child, .container .footer:last-child {
-          margin-right: 0; } }
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    /*background-color: violet;*/ }
+
+/*
+    .social 
+*/
+.social {
+  /*background-color: paleturquoise;*/
+  padding: 1em 0; }
+  .social ul {
+    list-style-type: none;
+    /*background-color: lightblue;*/
+    margin: 0;
+    text-align: center;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px; }
+    .social ul li {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      text-align: center; }
+      .social ul li a {
+        text-decoration: none;
+        padding: 0 1em;
+        width: 50%; }
+
+/*
+    .footer 
+*/
+.footer {
+  /*background-color: pink;*/
+  padding: 1em 0; }
+  .footer ul {
+    list-style-type: none;
+    /*background-color: lightblue;*/
+    margin: 0;
+    text-align: center;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px; }
+    .footer ul li {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      text-align: center; }
+      .footer ul li a {
+        text-decoration: none;
+        padding: 0 1em; }
 
 /*
     div.article__tags

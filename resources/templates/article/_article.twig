@@ -1,29 +1,28 @@
 {# src: resources/templates/article/_article.twig #}
-{#
-    dates will be displayed as first 2 letters of month and the day
-    i.e Fe23 or Oc14
-#}
 <article class="article">
 
     <!-- meta -->
-    <div class="acticle__meta">
-        
-
-        <!-- created -->
-        {{ article.created|date("M")|slice(0, 2)|title }} {{article.created|date('j') }}
-        <!-- /created -->
+    <div class="article__meta">
+        <p class="article__meta__date">
+            {{ article.created|date("d M Y") }}
+        </p>
     </div>
     <!-- /meta -->
-
+    
+    <!-- title -->
+    <h2 class="article__title">
+        <a href="{{ path('article_read', {slug: article.slug}) }}">
+            {{ article.title }}
+        </a>
+    </h2>
+    <!-- /title -->
+    
+    <!-- summary -->
     <div class="article__content">
-        {{ article.title }}
-
         {% autoescape false %}
         {{ article.summary|markdown }}
         {% endautoescape %}
-
-        <a href="{{ path('article_read', {slug: article.slug}) }}">Read more &hellip;</a>
     </div>
-
+    <!-- /summary -->
     
 </article>

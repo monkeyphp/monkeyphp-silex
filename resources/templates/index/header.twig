@@ -1,23 +1,15 @@
 {# src: resources/templates/index/header.twig #}
 <header class="header">
     
-    <h1>Monkeyphp</h1>
-    
-    <nav>
-        <ul>
-            <li>
-                <a href="{{ path('index_index') }}">Home</a>
-            </li>
-            <li>
-                <a href="{{ path('about_index') }}">About</a>
-            </li>
-            <li>
-                <a href="{{ path('article_index') }}">Article</a>
-            </li>
-            <li>
-                <a href="{{ path('message_index') }}">Message Me</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="container">
+        
+        <!-- brand -->
+        <a href="{{ path('index_index') }}" class="brand">Monkeyphp</a>
+        <!-- /brand -->
+
+        <!-- strapline -->
+        <a href="{{ path('index_index') }}" class="strapline">The Official Cool Beans Awesome Monkeyphp Blog</a>
+        <!-- /strapline -->
+    </div>
     
 </header>

@@ -1805,3 +1805,1986 @@ $primary-color: #005B96;
 [2014-01-05 16:16:19] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
 [2014-01-05 16:16:19] myapp.INFO: > GET /footer [] []
 [2014-01-05 16:16:19] myapp.INFO: < 200 [] []
+[2014-01-05 16:19:10] myapp.INFO: Matched route "about_index" (parameters: "_controller": "about.controller:indexAction", "_route": "about_index") [] []
+[2014-01-05 16:19:10] myapp.INFO: > GET /about [] []
+[2014-01-05 16:19:10] myapp.INFO: < 200 [] []
+[2014-01-05 16:19:10] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:19:10] myapp.INFO: > GET /header [] []
+[2014-01-05 16:19:10] myapp.INFO: < 200 [] []
+[2014-01-05 16:19:10] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:19:10] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:19:10] myapp.INFO: < 200 [] []
+[2014-01-05 16:19:23] myapp.INFO: Matched route "about_index" (parameters: "_controller": "about.controller:indexAction", "_route": "about_index") [] []
+[2014-01-05 16:19:23] myapp.INFO: > GET /about [] []
+[2014-01-05 16:19:23] myapp.INFO: < 200 [] []
+[2014-01-05 16:19:23] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:19:23] myapp.INFO: > GET /header [] []
+[2014-01-05 16:19:23] myapp.INFO: < 200 [] []
+[2014-01-05 16:19:23] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:19:23] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:19:23] myapp.INFO: < 200 [] []
+[2014-01-05 16:21:33] myapp.INFO: Matched route "about_index" (parameters: "_controller": "about.controller:indexAction", "_route": "about_index") [] []
+[2014-01-05 16:21:33] myapp.INFO: > GET /about [] []
+[2014-01-05 16:21:33] myapp.INFO: < 200 [] []
+[2014-01-05 16:21:33] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:21:33] myapp.INFO: > GET /header [] []
+[2014-01-05 16:21:33] myapp.INFO: < 200 [] []
+[2014-01-05 16:21:34] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:21:34] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:21:34] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:08] myapp.INFO: Matched route "about_index" (parameters: "_controller": "about.controller:indexAction", "_route": "about_index") [] []
+[2014-01-05 16:22:08] myapp.INFO: > GET /about [] []
+[2014-01-05 16:22:08] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:08] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:22:08] myapp.INFO: > GET /header [] []
+[2014-01-05 16:22:08] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:09] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:22:09] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:22:09] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:10] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:22:10] myapp.INFO: > GET /article [] []
+[2014-01-05 16:22:10] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:10] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:22:10] myapp.INFO: > GET /header [] []
+[2014-01-05 16:22:10] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:10] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:22:10] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:22:10] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:14] myapp.INFO: Matched route "message_index" (parameters: "_controller": "message.controller:indexAction", "_route": "message_index") [] []
+[2014-01-05 16:22:14] myapp.INFO: > GET /message [] []
+[2014-01-05 16:22:14] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:14] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:22:14] myapp.INFO: > GET /header [] []
+[2014-01-05 16:22:14] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:14] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:22:14] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:22:14] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:24] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 16:22:24] myapp.INFO: > GET / [] []
+[2014-01-05 16:22:24] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:24] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:22:24] myapp.INFO: > GET /header [] []
+[2014-01-05 16:22:24] myapp.INFO: < 200 [] []
+[2014-01-05 16:22:24] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:22:24] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:22:24] myapp.INFO: < 200 [] []
+[2014-01-05 16:30:35] myapp.INFO: Matched route "about_index" (parameters: "_controller": "about.controller:indexAction", "_route": "about_index") [] []
+[2014-01-05 16:30:35] myapp.INFO: > GET /about [] []
+[2014-01-05 16:30:35] myapp.INFO: < 200 [] []
+[2014-01-05 16:30:35] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:30:35] myapp.INFO: > GET /header [] []
+[2014-01-05 16:30:35] myapp.INFO: < 200 [] []
+[2014-01-05 16:30:35] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:30:35] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:30:35] myapp.INFO: < 200 [] []
+[2014-01-05 16:30:36] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 16:30:36] myapp.INFO: > GET / [] []
+[2014-01-05 16:30:36] myapp.INFO: < 200 [] []
+[2014-01-05 16:30:37] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:30:37] myapp.INFO: > GET /header [] []
+[2014-01-05 16:30:37] myapp.INFO: < 200 [] []
+[2014-01-05 16:30:37] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:30:37] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:30:37] myapp.INFO: < 200 [] []
+[2014-01-05 16:30:39] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:30:39] myapp.INFO: > GET /article [] []
+[2014-01-05 16:30:40] myapp.INFO: < 200 [] []
+[2014-01-05 16:30:40] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:30:40] myapp.INFO: > GET /header [] []
+[2014-01-05 16:30:40] myapp.INFO: < 200 [] []
+[2014-01-05 16:30:40] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:30:40] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:30:40] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:23] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:37:23] myapp.INFO: > GET /article [] []
+[2014-01-05 16:37:23] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:24] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:37:24] myapp.INFO: > GET /header [] []
+[2014-01-05 16:37:24] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:24] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:37:24] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:37:24] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:34] myapp.INFO: Matched route "about_index" (parameters: "_controller": "about.controller:indexAction", "_route": "about_index") [] []
+[2014-01-05 16:37:34] myapp.INFO: > GET /about [] []
+[2014-01-05 16:37:34] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:34] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:37:34] myapp.INFO: > GET /header [] []
+[2014-01-05 16:37:34] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:34] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:37:34] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:37:34] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:36] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:37:36] myapp.INFO: > GET /article [] []
+[2014-01-05 16:37:37] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:37] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:37:37] myapp.INFO: > GET /header [] []
+[2014-01-05 16:37:37] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:37] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:37:37] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:37:37] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:38] myapp.INFO: Matched route "message_index" (parameters: "_controller": "message.controller:indexAction", "_route": "message_index") [] []
+[2014-01-05 16:37:38] myapp.INFO: > GET /message [] []
+[2014-01-05 16:37:38] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:38] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:37:38] myapp.INFO: > GET /header [] []
+[2014-01-05 16:37:38] myapp.INFO: < 200 [] []
+[2014-01-05 16:37:39] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:37:39] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:37:39] myapp.INFO: < 200 [] []
+[2014-01-05 16:46:49] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:46:49] myapp.INFO: > GET /article [] []
+[2014-01-05 16:46:50] myapp.INFO: < 200 [] []
+[2014-01-05 16:46:50] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:46:50] myapp.INFO: > GET /header [] []
+[2014-01-05 16:46:50] myapp.INFO: < 200 [] []
+[2014-01-05 16:46:50] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:46:50] myapp.INFO: > GET /social [] []
+[2014-01-05 16:46:50] myapp.INFO: < 200 [] []
+[2014-01-05 16:46:50] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:46:50] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:46:50] myapp.INFO: < 200 [] []
+[2014-01-05 16:47:03] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:47:03] myapp.INFO: > GET /article [] []
+[2014-01-05 16:47:03] myapp.INFO: < 200 [] []
+[2014-01-05 16:47:03] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:47:03] myapp.INFO: > GET /header [] []
+[2014-01-05 16:47:03] myapp.INFO: < 200 [] []
+[2014-01-05 16:47:03] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:47:03] myapp.INFO: > GET /social [] []
+[2014-01-05 16:47:03] myapp.INFO: < 200 [] []
+[2014-01-05 16:47:03] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:47:03] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:47:03] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:26] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:48:26] myapp.INFO: > GET /article [] []
+[2014-01-05 16:48:26] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:26] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:48:26] myapp.INFO: > GET /header [] []
+[2014-01-05 16:48:26] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:26] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:48:26] myapp.INFO: > GET /social [] []
+[2014-01-05 16:48:26] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:26] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:48:26] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:48:26] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:36] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 16:48:36] myapp.INFO: > GET / [] []
+[2014-01-05 16:48:36] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:36] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:48:36] myapp.INFO: > GET /header [] []
+[2014-01-05 16:48:36] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:37] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:48:37] myapp.INFO: > GET /social [] []
+[2014-01-05 16:48:37] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:37] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:48:37] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:48:37] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:42] myapp.INFO: Matched route "about_index" (parameters: "_controller": "about.controller:indexAction", "_route": "about_index") [] []
+[2014-01-05 16:48:42] myapp.INFO: > GET /about [] []
+[2014-01-05 16:48:42] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:42] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:48:42] myapp.INFO: > GET /header [] []
+[2014-01-05 16:48:42] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:42] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:48:42] myapp.INFO: > GET /social [] []
+[2014-01-05 16:48:42] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:42] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:48:42] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:48:42] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:46] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:48:46] myapp.INFO: > GET /article [] []
+[2014-01-05 16:48:46] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:46] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:48:46] myapp.INFO: > GET /header [] []
+[2014-01-05 16:48:46] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:46] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:48:46] myapp.INFO: > GET /social [] []
+[2014-01-05 16:48:46] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:47] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:48:47] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:48:47] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:48] myapp.INFO: Matched route "message_index" (parameters: "_controller": "message.controller:indexAction", "_route": "message_index") [] []
+[2014-01-05 16:48:48] myapp.INFO: > GET /message [] []
+[2014-01-05 16:48:48] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:48] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:48:48] myapp.INFO: > GET /header [] []
+[2014-01-05 16:48:48] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:48] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:48:48] myapp.INFO: > GET /social [] []
+[2014-01-05 16:48:49] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:49] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:48:49] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:48:49] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:50] myapp.INFO: Matched route "login_login" (parameters: "_controller": "login.controller:loginAction", "_route": "login_login") [] []
+[2014-01-05 16:48:50] myapp.INFO: > GET /login [] []
+[2014-01-05 16:48:50] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:50] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:48:50] myapp.INFO: > GET /header [] []
+[2014-01-05 16:48:50] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:51] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:48:51] myapp.INFO: > GET /social [] []
+[2014-01-05 16:48:51] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:51] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:48:51] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:48:51] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:54] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 16:48:54] myapp.INFO: > GET / [] []
+[2014-01-05 16:48:54] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:54] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:48:54] myapp.INFO: > GET /header [] []
+[2014-01-05 16:48:54] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:55] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:48:55] myapp.INFO: > GET /social [] []
+[2014-01-05 16:48:55] myapp.INFO: < 200 [] []
+[2014-01-05 16:48:55] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:48:55] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:48:55] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:04] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:50:04] myapp.INFO: > GET /article [] []
+[2014-01-05 16:50:04] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:05] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:50:05] myapp.INFO: > GET /header [] []
+[2014-01-05 16:50:05] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:05] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:50:05] myapp.INFO: > GET /social [] []
+[2014-01-05 16:50:05] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:05] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:50:05] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:50:05] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:52] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:50:52] myapp.INFO: > GET /article [] []
+[2014-01-05 16:50:52] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:52] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:50:52] myapp.INFO: > GET /header [] []
+[2014-01-05 16:50:52] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:52] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:50:52] myapp.INFO: > GET /social [] []
+[2014-01-05 16:50:52] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:52] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:50:52] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:50:52] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:56] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:50:56] myapp.INFO: > GET /article [] []
+[2014-01-05 16:50:56] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:56] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:50:56] myapp.INFO: > GET /header [] []
+[2014-01-05 16:50:56] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:57] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:50:57] myapp.INFO: > GET /social [] []
+[2014-01-05 16:50:57] myapp.INFO: < 200 [] []
+[2014-01-05 16:50:57] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:50:57] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:50:57] myapp.INFO: < 200 [] []
+[2014-01-05 16:52:49] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:52:49] myapp.INFO: > GET /article [] []
+[2014-01-05 16:52:49] myapp.INFO: < 200 [] []
+[2014-01-05 16:52:49] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:52:49] myapp.INFO: > GET /header [] []
+[2014-01-05 16:52:49] myapp.INFO: < 200 [] []
+[2014-01-05 16:52:49] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:52:49] myapp.INFO: > GET /social [] []
+[2014-01-05 16:52:49] myapp.INFO: < 200 [] []
+[2014-01-05 16:52:49] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:52:49] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:52:49] myapp.INFO: < 200 [] []
+[2014-01-05 16:53:45] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:53:45] myapp.INFO: > GET /article [] []
+[2014-01-05 16:53:45] myapp.INFO: < 200 [] []
+[2014-01-05 16:53:45] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:53:45] myapp.INFO: > GET /header [] []
+[2014-01-05 16:53:45] myapp.INFO: < 200 [] []
+[2014-01-05 16:53:45] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:53:45] myapp.INFO: > GET /social [] []
+[2014-01-05 16:53:45] myapp.INFO: < 200 [] []
+[2014-01-05 16:53:45] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:53:45] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:53:45] myapp.INFO: < 200 [] []
+[2014-01-05 16:55:15] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 16:55:15] myapp.INFO: > GET /article [] []
+[2014-01-05 16:55:16] myapp.INFO: < 200 [] []
+[2014-01-05 16:55:16] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:55:16] myapp.INFO: > GET /header [] []
+[2014-01-05 16:55:16] myapp.INFO: < 200 [] []
+[2014-01-05 16:55:16] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:55:16] myapp.INFO: > GET /social [] []
+[2014-01-05 16:55:16] myapp.INFO: < 200 [] []
+[2014-01-05 16:55:16] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:55:16] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:55:16] myapp.INFO: < 200 [] []
+[2014-01-05 16:56:34] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 16:56:34] myapp.INFO: > GET / [] []
+[2014-01-05 16:56:34] myapp.INFO: < 200 [] []
+[2014-01-05 16:56:34] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:56:34] myapp.INFO: > GET /header [] []
+[2014-01-05 16:56:34] myapp.INFO: < 200 [] []
+[2014-01-05 16:56:35] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:56:35] myapp.INFO: > GET /social [] []
+[2014-01-05 16:56:35] myapp.INFO: < 200 [] []
+[2014-01-05 16:56:35] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:56:35] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:56:35] myapp.INFO: < 200 [] []
+[2014-01-05 16:59:48] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 16:59:48] myapp.INFO: > GET / [] []
+[2014-01-05 16:59:49] myapp.INFO: < 200 [] []
+[2014-01-05 16:59:49] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 16:59:49] myapp.INFO: > GET /header [] []
+[2014-01-05 16:59:49] myapp.INFO: < 200 [] []
+[2014-01-05 16:59:49] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 16:59:49] myapp.INFO: > GET /social [] []
+[2014-01-05 16:59:49] myapp.INFO: < 200 [] []
+[2014-01-05 16:59:49] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 16:59:49] myapp.INFO: > GET /footer [] []
+[2014-01-05 16:59:49] myapp.INFO: < 200 [] []
+[2014-01-05 17:01:06] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:01:06] myapp.INFO: > GET / [] []
+[2014-01-05 17:01:06] myapp.INFO: < 200 [] []
+[2014-01-05 17:01:07] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:01:07] myapp.INFO: > GET /header [] []
+[2014-01-05 17:01:07] myapp.INFO: < 200 [] []
+[2014-01-05 17:01:07] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:01:07] myapp.INFO: > GET /social [] []
+[2014-01-05 17:01:07] myapp.INFO: < 200 [] []
+[2014-01-05 17:01:07] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:01:07] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:01:07] myapp.INFO: < 200 [] []
+[2014-01-05 17:01:40] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:01:40] myapp.INFO: > GET / [] []
+[2014-01-05 17:01:40] myapp.INFO: < 200 [] []
+[2014-01-05 17:01:41] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:01:41] myapp.INFO: > GET /header [] []
+[2014-01-05 17:01:41] myapp.INFO: < 200 [] []
+[2014-01-05 17:01:41] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:01:41] myapp.INFO: > GET /social [] []
+[2014-01-05 17:01:41] myapp.INFO: < 200 [] []
+[2014-01-05 17:01:41] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:01:41] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:01:41] myapp.INFO: < 200 [] []
+[2014-01-05 17:03:02] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:03:02] myapp.INFO: > GET / [] []
+[2014-01-05 17:03:02] myapp.INFO: < 200 [] []
+[2014-01-05 17:03:02] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:03:02] myapp.INFO: > GET /header [] []
+[2014-01-05 17:03:02] myapp.INFO: < 200 [] []
+[2014-01-05 17:03:02] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:03:02] myapp.INFO: > GET /social [] []
+[2014-01-05 17:03:02] myapp.INFO: < 200 [] []
+[2014-01-05 17:03:02] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:03:02] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:03:02] myapp.INFO: < 200 [] []
+[2014-01-05 17:04:01] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:04:01] myapp.INFO: > GET / [] []
+[2014-01-05 17:04:01] myapp.INFO: < 200 [] []
+[2014-01-05 17:04:01] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:04:01] myapp.INFO: > GET /header [] []
+[2014-01-05 17:04:01] myapp.INFO: < 200 [] []
+[2014-01-05 17:04:01] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:04:01] myapp.INFO: > GET /social [] []
+[2014-01-05 17:04:01] myapp.INFO: < 200 [] []
+[2014-01-05 17:04:01] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:04:01] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:04:01] myapp.INFO: < 200 [] []
+[2014-01-05 17:05:49] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:05:49] myapp.INFO: > GET / [] []
+[2014-01-05 17:05:49] myapp.INFO: < 200 [] []
+[2014-01-05 17:05:50] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:05:50] myapp.INFO: > GET /header [] []
+[2014-01-05 17:05:50] myapp.INFO: < 200 [] []
+[2014-01-05 17:05:50] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:05:50] myapp.INFO: > GET /social [] []
+[2014-01-05 17:05:50] myapp.INFO: < 200 [] []
+[2014-01-05 17:05:50] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:05:50] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:05:50] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:04] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:06:04] myapp.INFO: > GET / [] []
+[2014-01-05 17:06:04] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:05] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:06:05] myapp.INFO: > GET /header [] []
+[2014-01-05 17:06:05] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:05] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:06:05] myapp.INFO: > GET /social [] []
+[2014-01-05 17:06:05] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:05] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:06:05] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:06:05] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:28] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:06:28] myapp.INFO: > GET / [] []
+[2014-01-05 17:06:28] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:29] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:06:29] myapp.INFO: > GET /header [] []
+[2014-01-05 17:06:29] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:29] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:06:29] myapp.INFO: > GET /social [] []
+[2014-01-05 17:06:29] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:29] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:06:29] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:06:29] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:39] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:06:39] myapp.INFO: > GET / [] []
+[2014-01-05 17:06:39] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:39] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:06:39] myapp.INFO: > GET /header [] []
+[2014-01-05 17:06:39] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:39] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:06:39] myapp.INFO: > GET /social [] []
+[2014-01-05 17:06:39] myapp.INFO: < 200 [] []
+[2014-01-05 17:06:39] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:06:39] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:06:39] myapp.INFO: < 200 [] []
+[2014-01-05 17:07:23] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:07:23] myapp.INFO: > GET / [] []
+[2014-01-05 17:07:23] myapp.INFO: < 200 [] []
+[2014-01-05 17:07:23] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:07:23] myapp.INFO: > GET /header [] []
+[2014-01-05 17:07:23] myapp.INFO: < 200 [] []
+[2014-01-05 17:07:24] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:07:24] myapp.INFO: > GET /social [] []
+[2014-01-05 17:07:24] myapp.INFO: < 200 [] []
+[2014-01-05 17:07:24] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:07:24] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:07:24] myapp.INFO: < 200 [] []
+[2014-01-05 17:08:06] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:08:06] myapp.INFO: > GET / [] []
+[2014-01-05 17:08:06] myapp.INFO: < 200 [] []
+[2014-01-05 17:08:06] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:08:06] myapp.INFO: > GET /header [] []
+[2014-01-05 17:08:06] myapp.INFO: < 200 [] []
+[2014-01-05 17:08:06] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:08:06] myapp.INFO: > GET /social [] []
+[2014-01-05 17:08:06] myapp.INFO: < 200 [] []
+[2014-01-05 17:08:06] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:08:06] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:08:06] myapp.INFO: < 200 [] []
+[2014-01-05 17:08:44] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:08:44] myapp.INFO: > GET / [] []
+[2014-01-05 17:08:44] myapp.INFO: < 200 [] []
+[2014-01-05 17:08:45] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:08:45] myapp.INFO: > GET /header [] []
+[2014-01-05 17:08:45] myapp.INFO: < 200 [] []
+[2014-01-05 17:08:45] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:08:45] myapp.INFO: > GET /social [] []
+[2014-01-05 17:08:45] myapp.INFO: < 200 [] []
+[2014-01-05 17:08:45] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:08:45] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:08:45] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:10] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:09:10] myapp.INFO: > GET / [] []
+[2014-01-05 17:09:10] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:11] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:09:11] myapp.INFO: > GET /header [] []
+[2014-01-05 17:09:11] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:11] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:09:11] myapp.INFO: > GET /social [] []
+[2014-01-05 17:09:11] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:11] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:09:11] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:09:11] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:18] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:09:18] myapp.INFO: > GET / [] []
+[2014-01-05 17:09:18] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:19] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:09:19] myapp.INFO: > GET /header [] []
+[2014-01-05 17:09:19] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:19] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:09:19] myapp.INFO: > GET /social [] []
+[2014-01-05 17:09:19] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:19] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:09:19] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:09:19] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:27] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:09:27] myapp.INFO: > GET / [] []
+[2014-01-05 17:09:27] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:27] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:09:27] myapp.INFO: > GET /header [] []
+[2014-01-05 17:09:27] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:27] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:09:27] myapp.INFO: > GET /social [] []
+[2014-01-05 17:09:27] myapp.INFO: < 200 [] []
+[2014-01-05 17:09:27] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:09:27] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:09:27] myapp.INFO: < 200 [] []
+[2014-01-05 17:10:28] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:10:28] myapp.INFO: > GET / [] []
+[2014-01-05 17:10:28] myapp.INFO: < 200 [] []
+[2014-01-05 17:10:29] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:10:29] myapp.INFO: > GET /header [] []
+[2014-01-05 17:10:29] myapp.INFO: < 200 [] []
+[2014-01-05 17:10:29] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:10:29] myapp.INFO: > GET /social [] []
+[2014-01-05 17:10:29] myapp.INFO: < 200 [] []
+[2014-01-05 17:10:29] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:10:29] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:10:29] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:03] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:11:03] myapp.INFO: > GET / [] []
+[2014-01-05 17:11:03] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:03] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:11:03] myapp.INFO: > GET /header [] []
+[2014-01-05 17:11:03] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:03] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:11:03] myapp.INFO: > GET /social [] []
+[2014-01-05 17:11:03] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:03] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:11:03] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:11:03] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:11] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:11:11] myapp.INFO: > GET / [] []
+[2014-01-05 17:11:11] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:12] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:11:12] myapp.INFO: > GET /header [] []
+[2014-01-05 17:11:12] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:12] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:11:12] myapp.INFO: > GET /social [] []
+[2014-01-05 17:11:12] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:12] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:11:12] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:11:12] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:22] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:11:22] myapp.INFO: > GET /article [] []
+[2014-01-05 17:11:22] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:22] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:11:22] myapp.INFO: > GET /header [] []
+[2014-01-05 17:11:22] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:22] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:11:22] myapp.INFO: > GET /social [] []
+[2014-01-05 17:11:22] myapp.INFO: < 200 [] []
+[2014-01-05 17:11:22] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:11:22] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:11:22] myapp.INFO: < 200 [] []
+[2014-01-05 17:12:48] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:12:48] myapp.INFO: > GET /article [] []
+[2014-01-05 17:12:48] myapp.INFO: < 200 [] []
+[2014-01-05 17:12:48] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:12:48] myapp.INFO: > GET /header [] []
+[2014-01-05 17:12:48] myapp.INFO: < 200 [] []
+[2014-01-05 17:12:48] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:12:48] myapp.INFO: > GET /social [] []
+[2014-01-05 17:12:48] myapp.INFO: < 200 [] []
+[2014-01-05 17:12:48] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:12:48] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:12:48] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:03] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:13:03] myapp.INFO: > GET / [] []
+[2014-01-05 17:13:03] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:03] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:13:03] myapp.INFO: > GET /header [] []
+[2014-01-05 17:13:03] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:03] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:13:03] myapp.INFO: > GET /social [] []
+[2014-01-05 17:13:03] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:03] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:13:03] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:13:03] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:06] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:13:06] myapp.INFO: > GET /article [] []
+[2014-01-05 17:13:06] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:06] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:13:06] myapp.INFO: > GET /header [] []
+[2014-01-05 17:13:06] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:06] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:13:06] myapp.INFO: > GET /social [] []
+[2014-01-05 17:13:06] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:06] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:13:06] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:13:06] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:09] myapp.INFO: Matched route "message_index" (parameters: "_controller": "message.controller:indexAction", "_route": "message_index") [] []
+[2014-01-05 17:13:09] myapp.INFO: > GET /message [] []
+[2014-01-05 17:13:09] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:09] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:13:09] myapp.INFO: > GET /header [] []
+[2014-01-05 17:13:09] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:09] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:13:09] myapp.INFO: > GET /social [] []
+[2014-01-05 17:13:09] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:10] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:13:10] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:13:10] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:11] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:13:11] myapp.INFO: > GET / [] []
+[2014-01-05 17:13:11] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:11] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:13:11] myapp.INFO: > GET /header [] []
+[2014-01-05 17:13:11] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:11] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:13:11] myapp.INFO: > GET /social [] []
+[2014-01-05 17:13:11] myapp.INFO: < 200 [] []
+[2014-01-05 17:13:11] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:13:11] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:13:11] myapp.INFO: < 200 [] []
+[2014-01-05 17:34:52] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:34:52] myapp.INFO: > GET / [] []
+[2014-01-05 17:34:52] myapp.INFO: < 200 [] []
+[2014-01-05 17:34:52] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:34:52] myapp.INFO: > GET /header [] []
+[2014-01-05 17:34:52] myapp.INFO: < 200 [] []
+[2014-01-05 17:34:53] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:34:53] myapp.INFO: > GET /social [] []
+[2014-01-05 17:34:53] myapp.INFO: < 200 [] []
+[2014-01-05 17:34:53] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:34:53] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:34:53] myapp.INFO: < 200 [] []
+[2014-01-05 17:35:53] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:35:53] myapp.INFO: > GET / [] []
+[2014-01-05 17:35:53] myapp.INFO: < 200 [] []
+[2014-01-05 17:35:53] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:35:53] myapp.INFO: > GET /header [] []
+[2014-01-05 17:35:53] myapp.INFO: < 200 [] []
+[2014-01-05 17:35:54] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:35:54] myapp.INFO: > GET /social [] []
+[2014-01-05 17:35:54] myapp.INFO: < 200 [] []
+[2014-01-05 17:35:54] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:35:54] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:35:54] myapp.INFO: < 200 [] []
+[2014-01-05 17:36:36] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:36:36] myapp.INFO: > GET / [] []
+[2014-01-05 17:36:36] myapp.INFO: < 200 [] []
+[2014-01-05 17:36:36] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:36:36] myapp.INFO: > GET /header [] []
+[2014-01-05 17:36:36] myapp.INFO: < 200 [] []
+[2014-01-05 17:36:36] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:36:36] myapp.INFO: > GET /social [] []
+[2014-01-05 17:36:36] myapp.INFO: < 200 [] []
+[2014-01-05 17:36:37] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:36:37] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:36:37] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:16] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:38:16] myapp.INFO: > GET / [] []
+[2014-01-05 17:38:17] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:17] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:38:17] myapp.INFO: > GET /header [] []
+[2014-01-05 17:38:17] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:17] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:38:17] myapp.INFO: > GET /social [] []
+[2014-01-05 17:38:17] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:17] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:38:17] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:38:17] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:46] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 17:38:47] myapp.INFO: > GET / [] []
+[2014-01-05 17:38:47] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:47] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:38:47] myapp.INFO: > GET /header [] []
+[2014-01-05 17:38:47] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:47] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:38:47] myapp.INFO: > GET /social [] []
+[2014-01-05 17:38:47] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:47] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:38:47] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:38:47] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:54] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:38:54] myapp.INFO: > GET /article [] []
+[2014-01-05 17:38:54] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:55] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:38:55] myapp.INFO: > GET /header [] []
+[2014-01-05 17:38:55] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:55] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:38:55] myapp.INFO: > GET /social [] []
+[2014-01-05 17:38:55] myapp.INFO: < 200 [] []
+[2014-01-05 17:38:55] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:38:55] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:38:55] myapp.INFO: < 200 [] []
+[2014-01-05 17:41:08] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:41:08] myapp.INFO: > GET /article [] []
+[2014-01-05 17:41:08] myapp.INFO: < 200 [] []
+[2014-01-05 17:41:09] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:41:09] myapp.INFO: > GET /header [] []
+[2014-01-05 17:41:09] myapp.INFO: < 200 [] []
+[2014-01-05 17:41:09] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:41:09] myapp.INFO: > GET /social [] []
+[2014-01-05 17:41:09] myapp.INFO: < 200 [] []
+[2014-01-05 17:41:09] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:41:09] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:41:09] myapp.INFO: < 200 [] []
+[2014-01-05 17:42:12] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:42:12] myapp.INFO: > GET /article [] []
+[2014-01-05 17:42:12] myapp.INFO: < 200 [] []
+[2014-01-05 17:42:13] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:42:13] myapp.INFO: > GET /header [] []
+[2014-01-05 17:42:13] myapp.INFO: < 200 [] []
+[2014-01-05 17:42:13] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:42:13] myapp.INFO: > GET /social [] []
+[2014-01-05 17:42:13] myapp.INFO: < 200 [] []
+[2014-01-05 17:42:13] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:42:13] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:42:13] myapp.INFO: < 200 [] []
+[2014-01-05 17:45:31] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:45:31] myapp.INFO: > GET /article [] []
+[2014-01-05 17:45:31] myapp.INFO: < 200 [] []
+[2014-01-05 17:45:31] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:45:31] myapp.INFO: > GET /header [] []
+[2014-01-05 17:45:31] myapp.INFO: < 200 [] []
+[2014-01-05 17:45:31] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:45:31] myapp.INFO: > GET /social [] []
+[2014-01-05 17:45:31] myapp.INFO: < 200 [] []
+[2014-01-05 17:45:31] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:45:31] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:45:31] myapp.INFO: < 200 [] []
+[2014-01-05 17:49:03] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:49:03] myapp.INFO: > GET /article [] []
+[2014-01-05 17:49:04] myapp.INFO: < 200 [] []
+[2014-01-05 17:49:04] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:49:04] myapp.INFO: > GET /header [] []
+[2014-01-05 17:49:04] myapp.INFO: < 200 [] []
+[2014-01-05 17:49:04] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:49:04] myapp.INFO: > GET /social [] []
+[2014-01-05 17:49:04] myapp.INFO: < 200 [] []
+[2014-01-05 17:49:04] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:49:04] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:49:04] myapp.INFO: < 200 [] []
+[2014-01-05 17:50:30] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:50:30] myapp.INFO: > GET /article [] []
+[2014-01-05 17:50:30] myapp.INFO: < 200 [] []
+[2014-01-05 17:50:30] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:50:30] myapp.INFO: > GET /header [] []
+[2014-01-05 17:50:30] myapp.INFO: < 200 [] []
+[2014-01-05 17:50:30] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:50:30] myapp.INFO: > GET /social [] []
+[2014-01-05 17:50:30] myapp.INFO: < 200 [] []
+[2014-01-05 17:50:31] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:50:31] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:50:31] myapp.INFO: < 200 [] []
+[2014-01-05 17:52:00] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:52:00] myapp.INFO: > GET /article [] []
+[2014-01-05 17:52:01] myapp.INFO: < 200 [] []
+[2014-01-05 17:52:01] myapp.CRITICAL: Assetic\Exception\FilterException: An error occurred while running:
+'/usr/local/bin/sass' '--load-path' '/mnt/project/src/../resources/assets/sass' '--scss' '--cache-location' '/tmp' '/tmp/assetic_sassNls3Jb'
+
+Error Output:
+Syntax error: Invalid CSS after "...r: lightskyblue": expected ";", was ".article__meta {"
+        on line 62 of /tmp/assetic_sassNls3Jb
+  Use --trace for backtrace.
+
+
+Input:
+/* 
+    styles.css
+*/
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
+/*
+    variables
+*/
+$primary-color: #005B96;
+
+/*
+    .container
+*/
+.container {
+    
+    @include outer-container;
+    
+    .content {
+        @include span-columns(8);
+        
+        @include media($tablet) {
+            @include span-columns(8);
+        }
+        
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+    
+}
+
+
+/*
+    .header 
+*/
+.header {
+    
+    background-color: lightslategray;
+    
+    .brand {
+        background-color: palegoldenrod;
+    }
+    
+    .strapline {
+        background-color: paleturquoise;
+    }
+}
+
+/*
+    .content 
+*/
+.content {
+    
+    background-color: peachpuff;
+    
+    .article {
+        
+        background-color: lightskyblue
+        
+        .article__meta {
+            
+        }
+        
+        .article__title {
+            background-color: lightsalmon;
+        }
+        
+        .article__content {}
+        
+    }
+    
+}
+
+/*
+    .social 
+*/
+.social {
+    
+    background-color: paleturquoise;
+    
+    
+}
+/*
+    .footer 
+*/
+.footer {
+    
+    background-color: pink;
+    
+}
+
+
+
+
+/*
+    div.article__tags
+*/
+.article__tags {
+    
+}
+/*
+    .article__tags a 
+*/
+.article__tags a {
+    display: inline-block;
+    color: white;
+    background-color: #e95c33;
+    padding: .1em .5em .25em;
+    border-radius: 5px;
+}
+ (uncaught exception) at /mnt/project/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php line 40 {"exception":"[object] (Assetic\\Exception\\FilterException: An error occurred while running:\n'/usr/local/bin/sass' '--load-path' '/mnt/project/src/../resources/assets/sass' '--scss' '--cache-location' '/tmp' '/tmp/assetic_sassNls3Jb'\n\nError Output:\nSyntax error: Invalid CSS after \"...r: lightskyblue\": expected \";\", was \".article__meta {\"\n        on line 62 of /tmp/assetic_sassNls3Jb\n  Use --trace for backtrace.\n\n\nInput:\n/* \n    styles.css\n*/\n@import \"bourbon/bourbon\";\n@import \"grid-settings\";\n@import \"neat/neat\";\n\n/*\n    variables\n*/\n$primary-color: #005B96;\n\n/*\n    .container\n*/\n.container {\n    \n    @include outer-container;\n    \n    .content {\n        @include span-columns(8);\n        \n        @include media($tablet) {\n            @include span-columns(8);\n        }\n        \n        @include media($mobile) {\n            @include span-columns(4);\n        }\n    }\n    \n}\n\n\n/*\n    .header \n*/\n.header {\n    \n    background-color: lightslategray;\n    \n    .brand {\n        background-color: palegoldenrod;\n    }\n    \n    .strapline {\n        background-color: paleturquoise;\n    }\n}\n\n/*\n    .content \n*/\n.content {\n    \n    background-color: peachpuff;\n    \n    .article {\n        \n        background-color: lightskyblue\n        \n        .article__meta {\n            \n        }\n        \n        .article__title {\n            background-color: lightsalmon;\n        }\n        \n        .article__content {}\n        \n    }\n    \n}\n\n/*\n    .social \n*/\n.social {\n    \n    background-color: paleturquoise;\n    \n    \n}\n/*\n    .footer \n*/\n.footer {\n    \n    background-color: pink;\n    \n}\n\n\n\n\n/*\n    div.article__tags\n*/\n.article__tags {\n    \n}\n/*\n    .article__tags a \n*/\n.article__tags a {\n    display: inline-block;\n    color: white;\n    background-color: #e95c33;\n    padding: .1em .5em .25em;\n    border-radius: 5px;\n}\n at /mnt/project/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php:40)"} []
+[2014-01-05 17:52:01] myapp.INFO: < 500 [] []
+[2014-01-05 17:52:15] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:52:15] myapp.INFO: > GET /article [] []
+[2014-01-05 17:52:15] myapp.INFO: < 200 [] []
+[2014-01-05 17:52:15] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:52:15] myapp.INFO: > GET /header [] []
+[2014-01-05 17:52:15] myapp.INFO: < 200 [] []
+[2014-01-05 17:52:15] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:52:15] myapp.INFO: > GET /social [] []
+[2014-01-05 17:52:15] myapp.INFO: < 200 [] []
+[2014-01-05 17:52:15] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:52:15] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:52:15] myapp.INFO: < 200 [] []
+[2014-01-05 17:52:31] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:52:31] myapp.INFO: > GET /article [] []
+[2014-01-05 17:52:31] myapp.INFO: < 200 [] []
+[2014-01-05 17:52:31] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:52:31] myapp.INFO: > GET /header [] []
+[2014-01-05 17:52:31] myapp.INFO: < 200 [] []
+[2014-01-05 17:52:31] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:52:31] myapp.INFO: > GET /social [] []
+[2014-01-05 17:52:31] myapp.INFO: < 200 [] []
+[2014-01-05 17:52:31] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:52:31] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:52:31] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:13] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:53:13] myapp.INFO: > GET /article [] []
+[2014-01-05 17:53:13] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:13] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:53:13] myapp.INFO: > GET /header [] []
+[2014-01-05 17:53:13] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:14] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:53:14] myapp.INFO: > GET /social [] []
+[2014-01-05 17:53:14] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:14] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:53:14] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:53:14] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:38] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:53:38] myapp.INFO: > GET /article [] []
+[2014-01-05 17:53:38] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:38] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:53:38] myapp.INFO: > GET /header [] []
+[2014-01-05 17:53:38] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:39] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:53:39] myapp.INFO: > GET /social [] []
+[2014-01-05 17:53:39] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:39] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:53:39] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:53:39] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:44] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:53:44] myapp.INFO: > GET /article [] []
+[2014-01-05 17:53:44] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:44] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:53:44] myapp.INFO: > GET /header [] []
+[2014-01-05 17:53:44] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:44] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:53:44] myapp.INFO: > GET /social [] []
+[2014-01-05 17:53:44] myapp.INFO: < 200 [] []
+[2014-01-05 17:53:44] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:53:44] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:53:44] myapp.INFO: < 200 [] []
+[2014-01-05 17:54:29] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 17:54:29] myapp.INFO: > GET /article [] []
+[2014-01-05 17:54:29] myapp.INFO: < 200 [] []
+[2014-01-05 17:54:29] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 17:54:29] myapp.INFO: > GET /header [] []
+[2014-01-05 17:54:29] myapp.INFO: < 200 [] []
+[2014-01-05 17:54:30] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 17:54:30] myapp.INFO: > GET /social [] []
+[2014-01-05 17:54:30] myapp.INFO: < 200 [] []
+[2014-01-05 17:54:30] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 17:54:30] myapp.INFO: > GET /footer [] []
+[2014-01-05 17:54:30] myapp.INFO: < 200 [] []
+[2014-01-05 18:12:43] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:12:43] myapp.INFO: > GET /article [] []
+[2014-01-05 18:12:43] myapp.INFO: < 200 [] []
+[2014-01-05 18:12:43] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:12:43] myapp.INFO: > GET /header [] []
+[2014-01-05 18:12:43] myapp.INFO: < 200 [] []
+[2014-01-05 18:12:43] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:12:43] myapp.INFO: > GET /social [] []
+[2014-01-05 18:12:43] myapp.INFO: < 200 [] []
+[2014-01-05 18:12:44] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:12:44] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:12:44] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:06] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:13:06] myapp.INFO: > GET /article [] []
+[2014-01-05 18:13:06] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:07] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:13:07] myapp.INFO: > GET /header [] []
+[2014-01-05 18:13:07] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:07] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:13:07] myapp.INFO: > GET /social [] []
+[2014-01-05 18:13:07] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:07] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:13:07] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:13:07] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:30] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:13:30] myapp.INFO: > GET /article [] []
+[2014-01-05 18:13:31] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:31] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:13:31] myapp.INFO: > GET /header [] []
+[2014-01-05 18:13:31] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:31] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:13:31] myapp.INFO: > GET /social [] []
+[2014-01-05 18:13:31] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:31] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:13:31] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:13:31] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:49] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:13:49] myapp.INFO: > GET /article [] []
+[2014-01-05 18:13:49] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:49] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:13:49] myapp.INFO: > GET /header [] []
+[2014-01-05 18:13:49] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:49] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:13:49] myapp.INFO: > GET /social [] []
+[2014-01-05 18:13:49] myapp.INFO: < 200 [] []
+[2014-01-05 18:13:50] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:13:50] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:13:50] myapp.INFO: < 200 [] []
+[2014-01-05 18:14:00] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:14:00] myapp.INFO: > GET /article [] []
+[2014-01-05 18:14:00] myapp.INFO: < 200 [] []
+[2014-01-05 18:14:00] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:14:00] myapp.INFO: > GET /header [] []
+[2014-01-05 18:14:00] myapp.INFO: < 200 [] []
+[2014-01-05 18:14:01] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:14:01] myapp.INFO: > GET /social [] []
+[2014-01-05 18:14:01] myapp.INFO: < 200 [] []
+[2014-01-05 18:14:01] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:14:01] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:14:01] myapp.INFO: < 200 [] []
+[2014-01-05 18:14:48] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:14:48] myapp.INFO: > GET /article [] []
+[2014-01-05 18:14:48] myapp.INFO: < 200 [] []
+[2014-01-05 18:14:49] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:14:49] myapp.INFO: > GET /header [] []
+[2014-01-05 18:14:49] myapp.INFO: < 200 [] []
+[2014-01-05 18:14:49] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:14:49] myapp.INFO: > GET /social [] []
+[2014-01-05 18:14:49] myapp.INFO: < 200 [] []
+[2014-01-05 18:14:49] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:14:49] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:14:49] myapp.INFO: < 200 [] []
+[2014-01-05 18:15:06] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:15:06] myapp.INFO: > GET /article [] []
+[2014-01-05 18:15:06] myapp.INFO: < 200 [] []
+[2014-01-05 18:15:07] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:15:07] myapp.INFO: > GET /header [] []
+[2014-01-05 18:15:07] myapp.INFO: < 200 [] []
+[2014-01-05 18:15:07] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:15:07] myapp.INFO: > GET /social [] []
+[2014-01-05 18:15:07] myapp.INFO: < 200 [] []
+[2014-01-05 18:15:07] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:15:07] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:15:07] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:06] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:16:06] myapp.INFO: > GET /article [] []
+[2014-01-05 18:16:06] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:07] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:16:07] myapp.INFO: > GET /header [] []
+[2014-01-05 18:16:07] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:07] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:16:07] myapp.INFO: > GET /social [] []
+[2014-01-05 18:16:07] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:07] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:16:07] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:16:07] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:39] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:16:39] myapp.INFO: > GET /article [] []
+[2014-01-05 18:16:39] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:39] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:16:39] myapp.INFO: > GET /header [] []
+[2014-01-05 18:16:39] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:39] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:16:39] myapp.INFO: > GET /social [] []
+[2014-01-05 18:16:39] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:40] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:16:40] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:16:40] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:56] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:16:56] myapp.INFO: > GET /article [] []
+[2014-01-05 18:16:56] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:57] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:16:57] myapp.INFO: > GET /header [] []
+[2014-01-05 18:16:57] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:57] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:16:57] myapp.INFO: > GET /social [] []
+[2014-01-05 18:16:57] myapp.INFO: < 200 [] []
+[2014-01-05 18:16:57] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:16:57] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:16:57] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:19] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:17:19] myapp.INFO: > GET /article [] []
+[2014-01-05 18:17:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:19] myapp.CRITICAL: Assetic\Exception\FilterException: An error occurred while running:
+'/usr/local/bin/sass' '--load-path' '/mnt/project/src/../resources/assets/sass' '--scss' '--cache-location' '/tmp' '/tmp/assetic_sass7MdUYD'
+
+Error Output:
+Syntax error: Invalid CSS after "...ext-decoration:": expected expression (e.g. 1px, bold), was ": none;"
+        on line 77 of /tmp/assetic_sass7MdUYD
+  Use --trace for backtrace.
+
+
+Input:
+/* 
+    styles.css
+*/
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
+/*
+    variables
+*/
+$primary-color: #005B96;
+
+/*
+    .container
+*/
+.container {
+    
+    @include outer-container;
+    
+    .content {
+        @include span-columns(8);
+        
+        @include media($tablet) {
+            @include span-columns(8);
+        }
+        
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+    
+}
+
+
+/*
+    .header 
+*/
+.header {
+    
+    background-color: lightslategray;
+    
+    .brand {
+        background-color: palegoldenrod;
+    }
+    
+    .strapline {
+        background-color: paleturquoise;
+    }
+}
+
+/*
+    .content 
+*/
+.content {
+    
+    background-color: peachpuff;
+    
+    .articles {
+        
+        .article {
+
+            background-color: lightskyblue;
+            border: 1px solid black;
+            margin-top: 2em;
+            
+            .article__meta {
+                background-color: lightcoral;
+                
+                .article__meta__date {
+                    text-align:center;
+                }
+            }
+
+            .article__title {
+                background-color: lightsalmon;
+                text-align:center;
+                text-decoration:: none;
+            }
+
+            .article__content {
+                background-color: lightyellow;
+            }
+        }
+        
+        .article__link {
+            margin-top: 1em;
+            display:block;
+            text-align:center;
+            font-size: 2em;
+            text-decoration:none;
+            background-color: violet;
+        }
+    }
+}
+
+/*
+    .social 
+*/
+.social {
+    background-color: paleturquoise;
+}
+/*
+    .footer 
+*/
+.footer {
+    
+    background-color: pink;
+    
+}
+
+
+
+
+/*
+    div.article__tags
+*/
+.article__tags {
+    
+}
+/*
+    .article__tags a 
+*/
+.article__tags a {
+    display: inline-block;
+    color: white;
+    background-color: #e95c33;
+    padding: .1em .5em .25em;
+    border-radius: 5px;
+}
+ (uncaught exception) at /mnt/project/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php line 40 {"exception":"[object] (Assetic\\Exception\\FilterException: An error occurred while running:\n'/usr/local/bin/sass' '--load-path' '/mnt/project/src/../resources/assets/sass' '--scss' '--cache-location' '/tmp' '/tmp/assetic_sass7MdUYD'\n\nError Output:\nSyntax error: Invalid CSS after \"...ext-decoration:\": expected expression (e.g. 1px, bold), was \": none;\"\n        on line 77 of /tmp/assetic_sass7MdUYD\n  Use --trace for backtrace.\n\n\nInput:\n/* \n    styles.css\n*/\n@import \"bourbon/bourbon\";\n@import \"grid-settings\";\n@import \"neat/neat\";\n\n/*\n    variables\n*/\n$primary-color: #005B96;\n\n/*\n    .container\n*/\n.container {\n    \n    @include outer-container;\n    \n    .content {\n        @include span-columns(8);\n        \n        @include media($tablet) {\n            @include span-columns(8);\n        }\n        \n        @include media($mobile) {\n            @include span-columns(4);\n        }\n    }\n    \n}\n\n\n/*\n    .header \n*/\n.header {\n    \n    background-color: lightslategray;\n    \n    .brand {\n        background-color: palegoldenrod;\n    }\n    \n    .strapline {\n        background-color: paleturquoise;\n    }\n}\n\n/*\n    .content \n*/\n.content {\n    \n    background-color: peachpuff;\n    \n    .articles {\n        \n        .article {\n\n            background-color: lightskyblue;\n            border: 1px solid black;\n            margin-top: 2em;\n            \n            .article__meta {\n                background-color: lightcoral;\n                \n                .article__meta__date {\n                    text-align:center;\n                }\n            }\n\n            .article__title {\n                background-color: lightsalmon;\n                text-align:center;\n                text-decoration:: none;\n            }\n\n            .article__content {\n                background-color: lightyellow;\n            }\n        }\n        \n        .article__link {\n            margin-top: 1em;\n            display:block;\n            text-align:center;\n            font-size: 2em;\n            text-decoration:none;\n            background-color: violet;\n        }\n    }\n}\n\n/*\n    .social \n*/\n.social {\n    background-color: paleturquoise;\n}\n/*\n    .footer \n*/\n.footer {\n    \n    background-color: pink;\n    \n}\n\n\n\n\n/*\n    div.article__tags\n*/\n.article__tags {\n    \n}\n/*\n    .article__tags a \n*/\n.article__tags a {\n    display: inline-block;\n    color: white;\n    background-color: #e95c33;\n    padding: .1em .5em .25em;\n    border-radius: 5px;\n}\n at /mnt/project/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php:40)"} []
+[2014-01-05 18:17:19] myapp.INFO: < 500 [] []
+[2014-01-05 18:17:27] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:17:27] myapp.INFO: > GET /article [] []
+[2014-01-05 18:17:27] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:28] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:17:28] myapp.INFO: > GET /header [] []
+[2014-01-05 18:17:28] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:28] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:17:28] myapp.INFO: > GET /social [] []
+[2014-01-05 18:17:28] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:28] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:17:28] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:17:28] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:31] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:17:31] myapp.INFO: > GET /article [] []
+[2014-01-05 18:17:31] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:31] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:17:31] myapp.INFO: > GET /header [] []
+[2014-01-05 18:17:31] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:31] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:17:31] myapp.INFO: > GET /social [] []
+[2014-01-05 18:17:31] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:31] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:17:31] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:17:31] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:35] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:17:35] myapp.INFO: > GET /article [] []
+[2014-01-05 18:17:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:35] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:17:35] myapp.INFO: > GET /header [] []
+[2014-01-05 18:17:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:35] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:17:35] myapp.INFO: > GET /social [] []
+[2014-01-05 18:17:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:35] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:17:35] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:17:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:53] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:17:53] myapp.INFO: > GET /article [] []
+[2014-01-05 18:17:53] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:53] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:17:53] myapp.INFO: > GET /header [] []
+[2014-01-05 18:17:53] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:53] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:17:53] myapp.INFO: > GET /social [] []
+[2014-01-05 18:17:53] myapp.INFO: < 200 [] []
+[2014-01-05 18:17:53] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:17:53] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:17:53] myapp.INFO: < 200 [] []
+[2014-01-05 18:18:26] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:18:26] myapp.INFO: > GET /article [] []
+[2014-01-05 18:18:26] myapp.INFO: < 200 [] []
+[2014-01-05 18:18:27] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:18:27] myapp.INFO: > GET /header [] []
+[2014-01-05 18:18:27] myapp.INFO: < 200 [] []
+[2014-01-05 18:18:27] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:18:27] myapp.INFO: > GET /social [] []
+[2014-01-05 18:18:27] myapp.INFO: < 200 [] []
+[2014-01-05 18:18:27] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:18:27] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:18:27] myapp.INFO: < 200 [] []
+[2014-01-05 18:18:43] myapp.INFO: Matched route "article_read" (parameters: "_controller": "article.controller:readAction", "slug": "zombies-brains-and-dev-life", "_route": "article_read") [] []
+[2014-01-05 18:18:43] myapp.INFO: > GET /article/zombies-brains-and-dev-life [] []
+[2014-01-05 18:18:43] myapp.INFO: < 200 [] []
+[2014-01-05 18:18:43] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:18:43] myapp.INFO: > GET /header [] []
+[2014-01-05 18:18:43] myapp.INFO: < 200 [] []
+[2014-01-05 18:18:43] myapp.INFO: Matched route "comment_index" (parameters: "_controller": "comment.controller:indexAction", "id": "-IEBI5VPTrCLYMA6F1cc6w", "_route": "comment_index") [] []
+[2014-01-05 18:18:43] myapp.INFO: > GET /article/comments/-IEBI5VPTrCLYMA6F1cc6w [] []
+[2014-01-05 18:18:43] myapp.INFO: < 200 [] []
+[2014-01-05 18:18:43] myapp.INFO: Matched route "comment_create" (parameters: "_controller": "comment.controller:createAction", "id": "-IEBI5VPTrCLYMA6F1cc6w", "_route": "comment_create") [] []
+[2014-01-05 18:18:43] myapp.INFO: > GET /comment/create/-IEBI5VPTrCLYMA6F1cc6w [] []
+[2014-01-05 18:18:43] myapp.INFO: < 200 [] []
+[2014-01-05 18:18:43] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:18:43] myapp.INFO: > GET /social [] []
+[2014-01-05 18:18:43] myapp.INFO: < 200 [] []
+[2014-01-05 18:18:43] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:18:43] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:18:43] myapp.INFO: < 200 [] []
+[2014-01-05 18:22:20] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:22:20] myapp.INFO: > GET /article [] []
+[2014-01-05 18:22:20] myapp.INFO: < 200 [] []
+[2014-01-05 18:22:21] myapp.CRITICAL: Assetic\Exception\FilterException: An error occurred while running:
+'/usr/local/bin/sass' '--load-path' '/mnt/project/src/../resources/assets/sass' '--scss' '--cache-location' '/tmp' '/tmp/assetic_sassc7SUlt'
+
+Error Output:
+Syntax error: Invalid CSS after "    @shift": expected "}", was "(1);"
+        on line 59 of /tmp/assetic_sassc7SUlt
+  Use --trace for backtrace.
+
+
+Input:
+/* 
+    styles.css
+*/
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
+/*
+    variables
+*/
+$primary-color: #005B96;
+
+/*
+    .container
+*/
+.container {
+    
+    @include outer-container;
+    
+    .content {
+        @include span-columns(8);
+        
+        @include media($tablet) {
+            @include span-columns(8);
+        }
+        
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+    
+}
+
+
+/*
+    .header 
+*/
+.header {
+    
+    background-color: lightslategray;
+    
+    .brand {
+        background-color: palegoldenrod;
+    }
+    
+    .strapline {
+        background-color: paleturquoise;
+    }
+}
+
+/*
+    .content 
+*/
+.content {
+    
+    background-color: peachpuff;
+    
+    @include span-columns(6);
+    @shift(1);
+    
+    .articles {
+        
+        .article {
+
+            background-color: lightskyblue;
+            border: 1px solid black;
+            margin-top: 2em;
+            
+            .article__meta {
+                background-color: lightcoral;
+                
+                .article__meta__date {
+                    text-align:center;
+                }
+            }
+
+            .article__title {
+                background-color: lightsalmon;
+                text-align:center;
+                font-size: 2em;
+                
+                a {
+                    text-decoration: none;
+                }
+                
+            }
+
+            .article__content {
+                background-color: lightyellow;
+            }
+        }
+        
+        .article__link {
+            margin-top: 1em;
+            display:block;
+            text-align:center;
+            font-size: 2em;
+            text-decoration:none;
+            background-color: violet;
+        }
+    }
+}
+
+/*
+    .social 
+*/
+.social {
+    background-color: paleturquoise;
+}
+/*
+    .footer 
+*/
+.footer {
+    
+    background-color: pink;
+    
+}
+
+
+
+
+/*
+    div.article__tags
+*/
+.article__tags {
+    
+}
+/*
+    .article__tags a 
+*/
+.article__tags a {
+    display: inline-block;
+    color: white;
+    background-color: #e95c33;
+    padding: .1em .5em .25em;
+    border-radius: 5px;
+}
+ (uncaught exception) at /mnt/project/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php line 40 {"exception":"[object] (Assetic\\Exception\\FilterException: An error occurred while running:\n'/usr/local/bin/sass' '--load-path' '/mnt/project/src/../resources/assets/sass' '--scss' '--cache-location' '/tmp' '/tmp/assetic_sassc7SUlt'\n\nError Output:\nSyntax error: Invalid CSS after \"    @shift\": expected \"}\", was \"(1);\"\n        on line 59 of /tmp/assetic_sassc7SUlt\n  Use --trace for backtrace.\n\n\nInput:\n/* \n    styles.css\n*/\n@import \"bourbon/bourbon\";\n@import \"grid-settings\";\n@import \"neat/neat\";\n\n/*\n    variables\n*/\n$primary-color: #005B96;\n\n/*\n    .container\n*/\n.container {\n    \n    @include outer-container;\n    \n    .content {\n        @include span-columns(8);\n        \n        @include media($tablet) {\n            @include span-columns(8);\n        }\n        \n        @include media($mobile) {\n            @include span-columns(4);\n        }\n    }\n    \n}\n\n\n/*\n    .header \n*/\n.header {\n    \n    background-color: lightslategray;\n    \n    .brand {\n        background-color: palegoldenrod;\n    }\n    \n    .strapline {\n        background-color: paleturquoise;\n    }\n}\n\n/*\n    .content \n*/\n.content {\n    \n    background-color: peachpuff;\n    \n    @include span-columns(6);\n    @shift(1);\n    \n    .articles {\n        \n        .article {\n\n            background-color: lightskyblue;\n            border: 1px solid black;\n            margin-top: 2em;\n            \n            .article__meta {\n                background-color: lightcoral;\n                \n                .article__meta__date {\n                    text-align:center;\n                }\n            }\n\n            .article__title {\n                background-color: lightsalmon;\n                text-align:center;\n                font-size: 2em;\n                \n                a {\n                    text-decoration: none;\n                }\n                \n            }\n\n            .article__content {\n                background-color: lightyellow;\n            }\n        }\n        \n        .article__link {\n            margin-top: 1em;\n            display:block;\n            text-align:center;\n            font-size: 2em;\n            text-decoration:none;\n            background-color: violet;\n        }\n    }\n}\n\n/*\n    .social \n*/\n.social {\n    background-color: paleturquoise;\n}\n/*\n    .footer \n*/\n.footer {\n    \n    background-color: pink;\n    \n}\n\n\n\n\n/*\n    div.article__tags\n*/\n.article__tags {\n    \n}\n/*\n    .article__tags a \n*/\n.article__tags a {\n    display: inline-block;\n    color: white;\n    background-color: #e95c33;\n    padding: .1em .5em .25em;\n    border-radius: 5px;\n}\n at /mnt/project/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php:40)"} []
+[2014-01-05 18:22:21] myapp.INFO: < 500 [] []
+[2014-01-05 18:22:57] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:22:57] myapp.INFO: > GET /article [] []
+[2014-01-05 18:22:57] myapp.INFO: < 200 [] []
+[2014-01-05 18:22:57] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:22:57] myapp.INFO: > GET /header [] []
+[2014-01-05 18:22:57] myapp.INFO: < 200 [] []
+[2014-01-05 18:22:57] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:22:57] myapp.INFO: > GET /social [] []
+[2014-01-05 18:22:57] myapp.INFO: < 200 [] []
+[2014-01-05 18:22:57] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:22:57] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:22:57] myapp.INFO: < 200 [] []
+[2014-01-05 18:23:41] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:23:41] myapp.INFO: > GET /article [] []
+[2014-01-05 18:23:41] myapp.INFO: < 200 [] []
+[2014-01-05 18:23:42] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:23:42] myapp.INFO: > GET /header [] []
+[2014-01-05 18:23:42] myapp.INFO: < 200 [] []
+[2014-01-05 18:23:42] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:23:42] myapp.INFO: > GET /social [] []
+[2014-01-05 18:23:42] myapp.INFO: < 200 [] []
+[2014-01-05 18:23:42] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:23:42] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:23:42] myapp.INFO: < 200 [] []
+[2014-01-05 18:23:54] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:23:54] myapp.INFO: > GET /article [] []
+[2014-01-05 18:23:54] myapp.INFO: < 200 [] []
+[2014-01-05 18:23:54] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:23:54] myapp.INFO: > GET /header [] []
+[2014-01-05 18:23:54] myapp.INFO: < 200 [] []
+[2014-01-05 18:23:55] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:23:55] myapp.INFO: > GET /social [] []
+[2014-01-05 18:23:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:23:55] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:23:55] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:23:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:24:53] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:24:53] myapp.INFO: > GET /article [] []
+[2014-01-05 18:24:53] myapp.INFO: < 200 [] []
+[2014-01-05 18:24:53] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:24:53] myapp.INFO: > GET /header [] []
+[2014-01-05 18:24:53] myapp.INFO: < 200 [] []
+[2014-01-05 18:24:53] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:24:53] myapp.INFO: > GET /social [] []
+[2014-01-05 18:24:53] myapp.INFO: < 200 [] []
+[2014-01-05 18:24:53] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:24:53] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:24:53] myapp.INFO: < 200 [] []
+[2014-01-05 18:27:59] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:27:59] myapp.INFO: > GET /article [] []
+[2014-01-05 18:27:59] myapp.INFO: < 200 [] []
+[2014-01-05 18:27:59] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:27:59] myapp.INFO: > GET /header [] []
+[2014-01-05 18:27:59] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:00] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:28:00] myapp.INFO: > GET /social [] []
+[2014-01-05 18:28:00] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:00] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:28:00] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:28:00] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:09] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:28:09] myapp.INFO: > GET /article [] []
+[2014-01-05 18:28:09] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:09] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:28:09] myapp.INFO: > GET /header [] []
+[2014-01-05 18:28:09] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:09] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:28:09] myapp.INFO: > GET /social [] []
+[2014-01-05 18:28:09] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:09] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:28:09] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:28:09] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:26] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:28:26] myapp.INFO: > GET /article [] []
+[2014-01-05 18:28:26] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:26] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:28:26] myapp.INFO: > GET /header [] []
+[2014-01-05 18:28:26] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:26] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:28:26] myapp.INFO: > GET /social [] []
+[2014-01-05 18:28:26] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:26] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:28:26] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:28:26] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:36] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:28:36] myapp.INFO: > GET /article [] []
+[2014-01-05 18:28:36] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:36] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:28:36] myapp.INFO: > GET /header [] []
+[2014-01-05 18:28:36] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:36] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:28:36] myapp.INFO: > GET /social [] []
+[2014-01-05 18:28:36] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:37] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:28:37] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:28:37] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:52] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:28:52] myapp.INFO: > GET /article [] []
+[2014-01-05 18:28:52] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:52] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:28:52] myapp.INFO: > GET /header [] []
+[2014-01-05 18:28:52] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:52] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:28:52] myapp.INFO: > GET /social [] []
+[2014-01-05 18:28:52] myapp.INFO: < 200 [] []
+[2014-01-05 18:28:53] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:28:53] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:28:53] myapp.INFO: < 200 [] []
+[2014-01-05 18:30:23] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:30:23] myapp.INFO: > GET /article [] []
+[2014-01-05 18:30:23] myapp.INFO: < 200 [] []
+[2014-01-05 18:30:24] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:30:24] myapp.INFO: > GET /header [] []
+[2014-01-05 18:30:24] myapp.INFO: < 200 [] []
+[2014-01-05 18:30:24] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:30:24] myapp.INFO: > GET /social [] []
+[2014-01-05 18:30:24] myapp.INFO: < 200 [] []
+[2014-01-05 18:30:24] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:30:24] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:30:24] myapp.INFO: < 200 [] []
+[2014-01-05 18:30:45] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:30:45] myapp.INFO: > GET /article [] []
+[2014-01-05 18:30:45] myapp.INFO: < 200 [] []
+[2014-01-05 18:30:45] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:30:45] myapp.INFO: > GET /header [] []
+[2014-01-05 18:30:45] myapp.INFO: < 200 [] []
+[2014-01-05 18:30:46] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:30:46] myapp.INFO: > GET /social [] []
+[2014-01-05 18:30:46] myapp.INFO: < 200 [] []
+[2014-01-05 18:30:46] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:30:46] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:30:46] myapp.INFO: < 200 [] []
+[2014-01-05 18:31:32] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:31:32] myapp.INFO: > GET /article [] []
+[2014-01-05 18:31:32] myapp.INFO: < 200 [] []
+[2014-01-05 18:31:33] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:31:33] myapp.INFO: > GET /header [] []
+[2014-01-05 18:31:33] myapp.INFO: < 200 [] []
+[2014-01-05 18:31:33] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:31:33] myapp.INFO: > GET /social [] []
+[2014-01-05 18:31:33] myapp.INFO: < 200 [] []
+[2014-01-05 18:31:33] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:31:33] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:31:33] myapp.INFO: < 200 [] []
+[2014-01-05 18:31:55] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:31:55] myapp.INFO: > GET /article [] []
+[2014-01-05 18:31:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:31:55] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:31:55] myapp.INFO: > GET /header [] []
+[2014-01-05 18:31:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:31:55] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:31:55] myapp.INFO: > GET /social [] []
+[2014-01-05 18:31:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:31:55] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:31:55] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:31:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:32:31] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:32:31] myapp.INFO: > GET /article [] []
+[2014-01-05 18:32:31] myapp.INFO: < 200 [] []
+[2014-01-05 18:32:32] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:32:32] myapp.INFO: > GET /header [] []
+[2014-01-05 18:32:32] myapp.INFO: < 200 [] []
+[2014-01-05 18:32:32] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:32:32] myapp.INFO: > GET /social [] []
+[2014-01-05 18:32:32] myapp.INFO: < 200 [] []
+[2014-01-05 18:32:32] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:32:32] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:32:32] myapp.INFO: < 200 [] []
+[2014-01-05 18:32:55] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:32:55] myapp.INFO: > GET /article [] []
+[2014-01-05 18:32:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:32:55] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:32:55] myapp.INFO: > GET /header [] []
+[2014-01-05 18:32:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:32:55] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:32:55] myapp.INFO: > GET /social [] []
+[2014-01-05 18:32:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:32:55] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:32:55] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:32:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:33:07] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:33:07] myapp.INFO: > GET /article [] []
+[2014-01-05 18:33:07] myapp.INFO: < 200 [] []
+[2014-01-05 18:33:08] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:33:08] myapp.INFO: > GET /header [] []
+[2014-01-05 18:33:08] myapp.INFO: < 200 [] []
+[2014-01-05 18:33:08] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:33:08] myapp.INFO: > GET /social [] []
+[2014-01-05 18:33:08] myapp.INFO: < 200 [] []
+[2014-01-05 18:33:08] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:33:08] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:33:08] myapp.INFO: < 200 [] []
+[2014-01-05 18:33:53] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:33:53] myapp.INFO: > GET /article [] []
+[2014-01-05 18:33:54] myapp.INFO: < 200 [] []
+[2014-01-05 18:33:54] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:33:54] myapp.INFO: > GET /header [] []
+[2014-01-05 18:33:54] myapp.INFO: < 200 [] []
+[2014-01-05 18:33:54] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:33:54] myapp.INFO: > GET /social [] []
+[2014-01-05 18:33:54] myapp.INFO: < 200 [] []
+[2014-01-05 18:33:54] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:33:54] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:33:54] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:25] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:34:25] myapp.INFO: > GET /article [] []
+[2014-01-05 18:34:25] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:26] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:34:26] myapp.INFO: > GET /header [] []
+[2014-01-05 18:34:26] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:26] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:34:26] myapp.INFO: > GET /social [] []
+[2014-01-05 18:34:26] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:26] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:34:26] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:34:26] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:40] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:34:40] myapp.INFO: > GET /article [] []
+[2014-01-05 18:34:40] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:40] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:34:40] myapp.INFO: > GET /header [] []
+[2014-01-05 18:34:40] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:40] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:34:40] myapp.INFO: > GET /social [] []
+[2014-01-05 18:34:40] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:40] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:34:40] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:34:40] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:46] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:34:46] myapp.INFO: > GET /article [] []
+[2014-01-05 18:34:46] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:46] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:34:46] myapp.INFO: > GET /header [] []
+[2014-01-05 18:34:46] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:46] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:34:46] myapp.INFO: > GET /social [] []
+[2014-01-05 18:34:46] myapp.INFO: < 200 [] []
+[2014-01-05 18:34:46] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:34:46] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:34:46] myapp.INFO: < 200 [] []
+[2014-01-05 18:35:31] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:35:31] myapp.INFO: > GET /article [] []
+[2014-01-05 18:35:31] myapp.INFO: < 200 [] []
+[2014-01-05 18:35:32] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:35:32] myapp.INFO: > GET /header [] []
+[2014-01-05 18:35:32] myapp.INFO: < 200 [] []
+[2014-01-05 18:35:32] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:35:32] myapp.INFO: > GET /social [] []
+[2014-01-05 18:35:32] myapp.INFO: < 200 [] []
+[2014-01-05 18:35:32] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:35:32] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:35:32] myapp.INFO: < 200 [] []
+[2014-01-05 18:36:00] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:36:00] myapp.INFO: > GET /article [] []
+[2014-01-05 18:36:00] myapp.INFO: < 200 [] []
+[2014-01-05 18:36:01] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:36:01] myapp.INFO: > GET /header [] []
+[2014-01-05 18:36:01] myapp.INFO: < 200 [] []
+[2014-01-05 18:36:01] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:36:01] myapp.INFO: > GET /social [] []
+[2014-01-05 18:36:01] myapp.INFO: < 200 [] []
+[2014-01-05 18:36:01] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:36:01] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:36:01] myapp.INFO: < 200 [] []
+[2014-01-05 18:37:51] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:37:51] myapp.INFO: > GET /article [] []
+[2014-01-05 18:37:51] myapp.INFO: < 200 [] []
+[2014-01-05 18:37:52] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:37:52] myapp.INFO: > GET /header [] []
+[2014-01-05 18:37:52] myapp.INFO: < 200 [] []
+[2014-01-05 18:37:52] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:37:52] myapp.INFO: > GET /social [] []
+[2014-01-05 18:37:52] myapp.INFO: < 200 [] []
+[2014-01-05 18:37:52] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:37:52] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:37:52] myapp.INFO: < 200 [] []
+[2014-01-05 18:37:55] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:37:55] myapp.INFO: > GET /article [] []
+[2014-01-05 18:37:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:37:55] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:37:55] myapp.INFO: > GET /header [] []
+[2014-01-05 18:37:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:37:55] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:37:55] myapp.INFO: > GET /social [] []
+[2014-01-05 18:37:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:37:55] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:37:55] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:37:55] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:04] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:38:04] myapp.INFO: > GET /article [] []
+[2014-01-05 18:38:04] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:04] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:38:04] myapp.INFO: > GET /header [] []
+[2014-01-05 18:38:04] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:04] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:38:04] myapp.INFO: > GET /social [] []
+[2014-01-05 18:38:04] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:04] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:38:04] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:38:04] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:18] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:38:19] myapp.INFO: > GET /article [] []
+[2014-01-05 18:38:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:19] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:38:19] myapp.INFO: > GET /header [] []
+[2014-01-05 18:38:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:19] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:38:19] myapp.INFO: > GET /social [] []
+[2014-01-05 18:38:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:19] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:38:19] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:38:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:34] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:38:34] myapp.INFO: > GET /article [] []
+[2014-01-05 18:38:34] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:35] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:38:35] myapp.INFO: > GET /header [] []
+[2014-01-05 18:38:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:35] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:38:35] myapp.INFO: > GET /social [] []
+[2014-01-05 18:38:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:35] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:38:35] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:38:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:53] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:38:53] myapp.INFO: > GET /article [] []
+[2014-01-05 18:38:53] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:54] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:38:54] myapp.INFO: > GET /header [] []
+[2014-01-05 18:38:54] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:54] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:38:54] myapp.INFO: > GET /social [] []
+[2014-01-05 18:38:54] myapp.INFO: < 200 [] []
+[2014-01-05 18:38:54] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:38:54] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:38:54] myapp.INFO: < 200 [] []
+[2014-01-05 18:39:19] myapp.INFO: Matched route "article_read" (parameters: "_controller": "article.controller:readAction", "slug": "zombies-brains-and-dev-life", "_route": "article_read") [] []
+[2014-01-05 18:39:19] myapp.INFO: > GET /article/zombies-brains-and-dev-life [] []
+[2014-01-05 18:39:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:39:19] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:39:19] myapp.INFO: > GET /header [] []
+[2014-01-05 18:39:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:39:19] myapp.INFO: Matched route "comment_index" (parameters: "_controller": "comment.controller:indexAction", "id": "-IEBI5VPTrCLYMA6F1cc6w", "_route": "comment_index") [] []
+[2014-01-05 18:39:19] myapp.INFO: > GET /article/comments/-IEBI5VPTrCLYMA6F1cc6w [] []
+[2014-01-05 18:39:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:39:19] myapp.INFO: Matched route "comment_create" (parameters: "_controller": "comment.controller:createAction", "id": "-IEBI5VPTrCLYMA6F1cc6w", "_route": "comment_create") [] []
+[2014-01-05 18:39:19] myapp.INFO: > GET /comment/create/-IEBI5VPTrCLYMA6F1cc6w [] []
+[2014-01-05 18:39:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:39:20] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:39:20] myapp.INFO: > GET /social [] []
+[2014-01-05 18:39:20] myapp.INFO: < 200 [] []
+[2014-01-05 18:39:20] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:39:20] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:39:20] myapp.INFO: < 200 [] []
+[2014-01-05 18:39:32] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:39:32] myapp.INFO: > GET /article [] []
+[2014-01-05 18:39:32] myapp.INFO: < 200 [] []
+[2014-01-05 18:39:33] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:39:33] myapp.INFO: > GET /header [] []
+[2014-01-05 18:39:33] myapp.INFO: < 200 [] []
+[2014-01-05 18:39:33] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:39:33] myapp.INFO: > GET /social [] []
+[2014-01-05 18:39:33] myapp.INFO: < 200 [] []
+[2014-01-05 18:39:33] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:39:33] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:39:33] myapp.INFO: < 200 [] []
+[2014-01-05 18:40:09] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:40:09] myapp.INFO: > GET /article [] []
+[2014-01-05 18:40:09] myapp.INFO: < 200 [] []
+[2014-01-05 18:40:09] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:40:09] myapp.INFO: > GET /header [] []
+[2014-01-05 18:40:09] myapp.INFO: < 200 [] []
+[2014-01-05 18:40:09] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:40:09] myapp.INFO: > GET /social [] []
+[2014-01-05 18:40:09] myapp.INFO: < 200 [] []
+[2014-01-05 18:40:10] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:40:10] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:40:10] myapp.INFO: < 200 [] []
+[2014-01-05 18:40:19] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:40:19] myapp.INFO: > GET /article [] []
+[2014-01-05 18:40:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:40:19] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:40:19] myapp.INFO: > GET /header [] []
+[2014-01-05 18:40:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:40:19] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:40:19] myapp.INFO: > GET /social [] []
+[2014-01-05 18:40:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:40:20] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:40:20] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:40:20] myapp.INFO: < 200 [] []
+[2014-01-05 18:41:56] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:41:56] myapp.INFO: > GET /article [] []
+[2014-01-05 18:41:56] myapp.INFO: < 200 [] []
+[2014-01-05 18:41:57] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:41:57] myapp.INFO: > GET /header [] []
+[2014-01-05 18:41:57] myapp.INFO: < 200 [] []
+[2014-01-05 18:41:57] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:41:57] myapp.INFO: > GET /social [] []
+[2014-01-05 18:41:57] myapp.INFO: < 200 [] []
+[2014-01-05 18:41:57] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:41:57] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:41:57] myapp.INFO: < 200 [] []
+[2014-01-05 18:41:58] myapp.INFO: Matched route "article_read" (parameters: "_controller": "article.controller:readAction", "slug": "something-about-php", "_route": "article_read") [] []
+[2014-01-05 18:41:58] myapp.INFO: > GET /article/something-about-php [] []
+[2014-01-05 18:41:58] myapp.INFO: < 200 [] []
+[2014-01-05 18:41:58] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:41:58] myapp.INFO: > GET /header [] []
+[2014-01-05 18:41:58] myapp.INFO: < 200 [] []
+[2014-01-05 18:41:58] myapp.INFO: Matched route "comment_index" (parameters: "_controller": "comment.controller:indexAction", "id": "FqEd2DQcQRy5H_MQvWqe2w", "_route": "comment_index") [] []
+[2014-01-05 18:41:58] myapp.INFO: > GET /article/comments/FqEd2DQcQRy5H_MQvWqe2w [] []
+[2014-01-05 18:41:58] myapp.INFO: < 200 [] []
+[2014-01-05 18:41:58] myapp.INFO: Matched route "comment_create" (parameters: "_controller": "comment.controller:createAction", "id": "FqEd2DQcQRy5H_MQvWqe2w", "_route": "comment_create") [] []
+[2014-01-05 18:41:58] myapp.INFO: > GET /comment/create/FqEd2DQcQRy5H_MQvWqe2w [] []
+[2014-01-05 18:41:58] myapp.INFO: < 200 [] []
+[2014-01-05 18:41:58] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:41:58] myapp.INFO: > GET /social [] []
+[2014-01-05 18:41:58] myapp.INFO: < 200 [] []
+[2014-01-05 18:41:58] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:41:58] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:41:58] myapp.INFO: < 200 [] []
+[2014-01-05 18:42:03] myapp.INFO: Matched route "article_read" (parameters: "_controller": "article.controller:readAction", "slug": "zombies-brains-and-dev-life", "_route": "article_read") [] []
+[2014-01-05 18:42:03] myapp.INFO: > GET /article/zombies-brains-and-dev-life [] []
+[2014-01-05 18:42:03] myapp.INFO: < 200 [] []
+[2014-01-05 18:42:03] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:42:03] myapp.INFO: > GET /header [] []
+[2014-01-05 18:42:03] myapp.INFO: < 200 [] []
+[2014-01-05 18:42:03] myapp.INFO: Matched route "comment_index" (parameters: "_controller": "comment.controller:indexAction", "id": "-IEBI5VPTrCLYMA6F1cc6w", "_route": "comment_index") [] []
+[2014-01-05 18:42:03] myapp.INFO: > GET /article/comments/-IEBI5VPTrCLYMA6F1cc6w [] []
+[2014-01-05 18:42:03] myapp.INFO: < 200 [] []
+[2014-01-05 18:42:03] myapp.INFO: Matched route "comment_create" (parameters: "_controller": "comment.controller:createAction", "id": "-IEBI5VPTrCLYMA6F1cc6w", "_route": "comment_create") [] []
+[2014-01-05 18:42:03] myapp.INFO: > GET /comment/create/-IEBI5VPTrCLYMA6F1cc6w [] []
+[2014-01-05 18:42:03] myapp.INFO: < 200 [] []
+[2014-01-05 18:42:03] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:42:03] myapp.INFO: > GET /social [] []
+[2014-01-05 18:42:03] myapp.INFO: < 200 [] []
+[2014-01-05 18:42:03] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:42:03] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:42:03] myapp.INFO: < 200 [] []
+[2014-01-05 18:42:13] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:42:13] myapp.INFO: > GET /article [] []
+[2014-01-05 18:42:13] myapp.INFO: < 200 [] []
+[2014-01-05 18:42:13] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:42:13] myapp.INFO: > GET /header [] []
+[2014-01-05 18:42:13] myapp.INFO: < 200 [] []
+[2014-01-05 18:42:13] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:42:13] myapp.INFO: > GET /social [] []
+[2014-01-05 18:42:13] myapp.INFO: < 200 [] []
+[2014-01-05 18:42:13] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:42:13] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:42:13] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:03] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:43:03] myapp.INFO: > GET /article [] []
+[2014-01-05 18:43:03] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:03] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:43:03] myapp.INFO: > GET /header [] []
+[2014-01-05 18:43:03] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:03] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:43:03] myapp.INFO: > GET /social [] []
+[2014-01-05 18:43:03] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:03] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:43:03] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:43:03] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:20] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:43:20] myapp.INFO: > GET /article [] []
+[2014-01-05 18:43:20] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:20] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:43:20] myapp.INFO: > GET /header [] []
+[2014-01-05 18:43:21] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:21] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:43:21] myapp.INFO: > GET /social [] []
+[2014-01-05 18:43:21] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:21] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:43:21] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:43:21] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:35] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:43:35] myapp.INFO: > GET /article [] []
+[2014-01-05 18:43:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:35] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:43:35] myapp.INFO: > GET /header [] []
+[2014-01-05 18:43:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:35] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:43:35] myapp.INFO: > GET /social [] []
+[2014-01-05 18:43:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:43:35] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:43:35] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:43:35] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:17] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:44:17] myapp.INFO: > GET /article [] []
+[2014-01-05 18:44:17] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:17] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:44:17] myapp.INFO: > GET /header [] []
+[2014-01-05 18:44:17] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:17] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:44:17] myapp.INFO: > GET /social [] []
+[2014-01-05 18:44:17] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:17] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:44:17] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:44:17] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:19] myapp.INFO: Matched route "index_index" (parameters: "_controller": "index.controller:indexAction", "_route": "index_index") [] []
+[2014-01-05 18:44:19] myapp.INFO: > GET / [] []
+[2014-01-05 18:44:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:19] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:44:19] myapp.INFO: > GET /header [] []
+[2014-01-05 18:44:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:19] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:44:19] myapp.INFO: > GET /social [] []
+[2014-01-05 18:44:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:19] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:44:19] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:44:19] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:22] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:44:22] myapp.INFO: > GET /article [] []
+[2014-01-05 18:44:22] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:22] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:44:22] myapp.INFO: > GET /header [] []
+[2014-01-05 18:44:22] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:22] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:44:22] myapp.INFO: > GET /social [] []
+[2014-01-05 18:44:22] myapp.INFO: < 200 [] []
+[2014-01-05 18:44:22] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:44:22] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:44:22] myapp.INFO: < 200 [] []
+[2014-01-05 18:45:05] myapp.INFO: Matched route "article_index" (parameters: "_controller": "article.controller:indexAction", "_route": "article_index") [] []
+[2014-01-05 18:45:05] myapp.INFO: > GET /article [] []
+[2014-01-05 18:45:05] myapp.INFO: < 200 [] []
+[2014-01-05 18:45:05] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:45:05] myapp.INFO: > GET /header [] []
+[2014-01-05 18:45:05] myapp.INFO: < 200 [] []
+[2014-01-05 18:45:05] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:45:05] myapp.INFO: > GET /social [] []
+[2014-01-05 18:45:05] myapp.INFO: < 200 [] []
+[2014-01-05 18:45:05] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:45:05] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:45:05] myapp.INFO: < 200 [] []
+[2014-01-05 18:45:49] myapp.INFO: Matched route "article_read" (parameters: "_controller": "article.controller:readAction", "slug": "zombies-brains-and-dev-life", "_route": "article_read") [] []
+[2014-01-05 18:45:49] myapp.INFO: > GET /article/zombies-brains-and-dev-life [] []
+[2014-01-05 18:45:50] myapp.INFO: < 200 [] []
+[2014-01-05 18:45:50] myapp.INFO: Matched route "index_header" (parameters: "_controller": "index.controller:headerAction", "_route": "index_header") [] []
+[2014-01-05 18:45:50] myapp.INFO: > GET /header [] []
+[2014-01-05 18:45:50] myapp.INFO: < 200 [] []
+[2014-01-05 18:45:50] myapp.INFO: Matched route "comment_index" (parameters: "_controller": "comment.controller:indexAction", "id": "-IEBI5VPTrCLYMA6F1cc6w", "_route": "comment_index") [] []
+[2014-01-05 18:45:50] myapp.INFO: > GET /article/comments/-IEBI5VPTrCLYMA6F1cc6w [] []
+[2014-01-05 18:45:50] myapp.INFO: < 200 [] []
+[2014-01-05 18:45:50] myapp.INFO: Matched route "comment_create" (parameters: "_controller": "comment.controller:createAction", "id": "-IEBI5VPTrCLYMA6F1cc6w", "_route": "comment_create") [] []
+[2014-01-05 18:45:50] myapp.INFO: > GET /comment/create/-IEBI5VPTrCLYMA6F1cc6w [] []
+[2014-01-05 18:45:50] myapp.INFO: < 200 [] []
+[2014-01-05 18:45:50] myapp.INFO: Matched route "index_social" (parameters: "_controller": "index.controller:socialAction", "_route": "index_social") [] []
+[2014-01-05 18:45:50] myapp.INFO: > GET /social [] []
+[2014-01-05 18:45:50] myapp.INFO: < 200 [] []
+[2014-01-05 18:45:50] myapp.INFO: Matched route "index_footer" (parameters: "_controller": "index.controller:footerAction", "_route": "index_footer") [] []
+[2014-01-05 18:45:50] myapp.INFO: > GET /footer [] []
+[2014-01-05 18:45:50] myapp.INFO: < 200 [] []

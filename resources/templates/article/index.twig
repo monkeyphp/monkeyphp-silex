@@ -2,11 +2,23 @@
 
 {% extends "layout.twig" %}
 
+
 {% block content %}
-    I am the article index template
+
+<section class="articles">
 
     {% for article in articles %}
     {% include "article/_article.twig" %}
     {% endfor %}
+    
+    <a href="{{ path('article_index') }}" class="article__link">
+        See all Articles
+    </a>
+    
+</section>
+
+    
+
+
 
 {% endblock %}

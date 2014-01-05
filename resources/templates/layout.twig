@@ -8,12 +8,11 @@
     </head>
     <body>
         
+        <!-- header -->
+        <esi:include src="{{ path('index_header') }}" />
+        <!-- /header -->
+        
         <section class="container">
-            
-            <!-- header -->
-            <esi:include src="{{ path('index_header') }}" />
-            <!-- /header -->
-            
             <!-- content -->
             <section class="content">
                 {% block content %}
@@ -21,12 +20,15 @@
                 {% endblock %}
             </section>
             <!-- /content -->
-            
-            <!-- footer -->
-            <esi:include src="{{ path('index_footer') }}" />
-            <!-- /footer -->
-            
         </section>
+        
+        <!-- social -->
+        <esi:include src="{{ path('index_social') }}" />
+        <!-- /social -->
+
+        <!-- footer -->
+        <esi:include src="{{ path('index_footer') }}" />
+        <!-- /footer -->
         
     </body>
 </html>

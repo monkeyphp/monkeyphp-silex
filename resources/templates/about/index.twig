@@ -3,14 +3,19 @@
 
 {% block content %}
 
+<section>
+    
+    <h2>About</h2>
+    
     {% if about is defined %}
         {% if about.body is defined %} 
         {% autoescape false %}
         {{ about.body|markdown }}
         {% endautoescape %}
         {% endif %}
-    {% else %}
-        
     {% endif %}
+    
+</section>
 
 {% endblock %}
+    

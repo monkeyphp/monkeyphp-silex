@@ -1,10 +1,26 @@
 {# src: resources/templates/index/footer.twig #}
 <footer class="footer">
-    <nav>
-        <ul>
-            <li>
-                <a href="{{ path('login_login') }}">Login</a>
-            </li>
-        </ul>
-    </nav>
+    
+    <div class="container">
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="{{ path('index_index') }}">Home</a>
+                </li>
+                <li>
+                    <a href="{{ path('about_index') }}">About</a>
+                </li>
+                <li>
+                    <a href="{{ path('article_index') }}">Article</a>
+                </li>
+                <li>
+                    <a href="{{ path('message_index') }}">Contact</a>
+                </li>
+                <li>
+                    <a href="{{ path('login_login') }}">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
 </footer>
